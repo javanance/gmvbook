@@ -1,0 +1,69 @@
+# Archives
+
+### 1.회계기준원 자료
+
+{% hint style="info" %}
+[회계기준원 IFRS17 제정안 Link](http://www.kasb.or.kr/fe/bbs/NR\_view.do?bbsCd=1061\&bbsSeq=36667\&currentPage=1\&rowPerPage=10\&ctgCd=11\&sortCds=\&startDt=\&endDt=\&searchKey=1000\&searchVal=)
+{% endhint %}
+
+{% file src=".gitbook/assets/시행전_K-IFRS_제1117호_보험계약(2021_제정).pdf" %}
+Download
+{% endfile %}
+
+### 2. IFRS.org 자료
+
+{% hint style="info" %}
+[IFRS 17 제정안 원문](http://www.kasb.or.kr/upload/IFRS/2020/IFRS2020-3\_WEBSITE\_122.pdf)&#x20;
+{% endhint %}
+
+
+
+### 3. 생명보험 협회
+
+{% hint style="info" %}
+[주요 이슈별 실무적용 사례 Link](https://www.klia.or.kr/board/8/view.do?boardNo=121728\&boardMngNo=8\&seq=1\&se=)
+{% endhint %}
+
+{% file src=".gitbook/assets/201811_생보협회_IFRS 17 주요 이슈별 실무 적용사례_F.pdf" %}
+Download
+{% endfile %}
+
+### 4. 한국보험계리사회
+
+{% hint style="info" %}
+[2019 IFRS 17 실무 적용사례 Link](https://www.actuary.or.kr/ifrs/edu\_view.asp?idx=22\&listnum=15\&search=\&searchtext=\&page=8\&gubun1=)
+{% endhint %}
+
+{% file src=".gitbook/assets/20191101_IFRS17 실무사례분석 세미나 (CSM, 발생사고부채, 재보험 및 PAA를 중심으로)_게시용.pdf" %}
+Download
+{% endfile %}
+
+### 5. 보험개발원&#x20;
+
+{% hint style="info" %}
+[IFRS 17 실무적용방안 마련 최종보고서 Link](https://www.kidi.or.kr/user/nd61128.do?View\&dmlType=\&total\_searchkey=\&page=1\&pageSC=\&pageSO=\&dmlType=\&boardNo=00065918\&menuCode=krsite\&pageST=SUBJECT\&pageSV=\&button=&\_\_encrypted=RLto2xBXJBgUva1wugLPhkjqlJSKnmb4hDECxCPUQ0/FvKDSofGXKBGEblE4SRH6mXuGPGbOi2K52Ty7RczFKuUjDPENnERwkPLJaASafVFQ4pWCf9ZOONcKGxyz2AI4RDrRBlaiQXe0iQOnyyP4tUIF2eRl31IepzmZpCFsLqCIu7BMF3s+Kmi37/WsdD/cq3NhOm7fjXPw1k1NnUV4Ab97d9IbjnKyZiXQohWd3rRV3BAiPiojdZ6VHkXGMyeSTm7AtCSOHEbdoIU0FK05oQrKDggJBPFsZpUoO6A85u6UYXODQIA/qyXIj1tdREWsVQGlYBQ7YDAydEmt6qXR8YA3JBP0gqlAFUIstWJpI3s=)
+{% endhint %}
+
+{% file src=".gitbook/assets/IFRS17 실무적용방안 마련 최종보고서.pdf" %}
+Download
+{% endfile %}
+
+### 6. 국제계리사회
+
+{% hint style="info" %}
+[International Actuarial Note 100 (IAN 100) Link](https://www.actuaries.org/iaa/IAA/Publications/IANs/IAA/Publications/international\_actuarial\_notes.aspx?hkey=d03a8eec-38fe-4d76-80b0-e0ed1e4e538b)
+{% endhint %}
+
+{% file src=".gitbook/assets/IAN 100_ExposureDraft_Fatal__v1.pdf" %}
+Download
+{% endfile %}
+
+### 7. 호주계리사회
+
+{% hint style="info" %}
+[Insurance Contracts Information Note Link](https://www.actuaries.asn.au/professional-development-regulation/ifrs-17-and-aasb-17)
+{% endhint %}
+
+{% file src=".gitbook/assets/IN_Version3_2021.pdf" %}
+Download
+{% endfile %}
