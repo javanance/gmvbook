@@ -1,6 +1,15 @@
 {
-  "plugins" :["hints", "tabs2"],
-  "pluginsConfig": {
+    "title": "IFRS 17 Whitepaper",
+    "author": "GoF",
+    "output.name": "/docs",
+    "gitbook": "3.2.3",
+    "root": "./",
+    "styles": {
+        "website": "styles/website.css"
+    },
+  
+     "plugins" :["hints", "tabs2"],
+     "pluginsConfig": {
         "hints": {
             "info": "fa fa-info-circle",
             "tip": "fa fa-mortar-board",
