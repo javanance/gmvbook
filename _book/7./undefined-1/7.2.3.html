@@ -1,0 +1,1786 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>7.2.3 이슈사항 분석 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="Issues in practical application">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tabs2/tabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../7.3/" />
+    
+    
+    <link rel="prev" href="7.2.2.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    1.개요
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../2./">
+            
+                <a href="../../2./">
+            
+                    
+                    2.계약관리
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../2./2.1/">
+            
+                <a href="../../2./2.1/">
+            
+                    
+                    2.1 보험계약분류
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="../../2./2.1/2.1.html">
+            
+                <a href="../../2./2.1/2.1.html">
+            
+                    
+                    2.1.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="../../2./2.1/2.1.2-an.html">
+            
+                <a href="../../2./2.1/2.1.2-an.html">
+            
+                    
+                    2.1.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="../../2./2.1/2.1.3.html">
+            
+                <a href="../../2./2.1/2.1.3.html">
+            
+                    
+                    2.1.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../2./untitled-3/">
+            
+                <a href="../../2./untitled-3/">
+            
+                    
+                    2.2 구성요소분리
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../../2./untitled-3/2.2.1.html">
+            
+                <a href="../../2./untitled-3/2.2.1.html">
+            
+                    
+                    2.2.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="../../2./untitled-3/2.2.2-an.html">
+            
+                <a href="../../2./untitled-3/2.2.2-an.html">
+            
+                    
+                    2.2.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3" data-path="../../2./untitled-3/2.2.3.html">
+            
+                <a href="../../2./untitled-3/2.2.3.html">
+            
+                    
+                    2.2.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../2./untitled-1/">
+            
+                <a href="../../2./untitled-1/">
+            
+                    
+                    2.3 통합수준
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../../2./untitled-1/2.3.1.html">
+            
+                <a href="../../2./untitled-1/2.3.1.html">
+            
+                    
+                    2.3.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="../../2./untitled-1/2.3.2-an.html">
+            
+                <a href="../../2./untitled-1/2.3.2-an.html">
+            
+                    
+                    2.3.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3" data-path="../../2./untitled-1/2.3.3.html">
+            
+                <a href="../../2./untitled-1/2.3.3.html">
+            
+                    
+                    2.3.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../2./untitled.html">
+            
+                <a href="../../2./untitled.html">
+            
+                    
+                    2.4 회계모형 결정
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../3./">
+            
+                <a href="../../3./">
+            
+                    
+                    3.최초인식 및 측정
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../3./3.1/">
+            
+                <a href="../../3./3.1/">
+            
+                    
+                    3.1 최초인식
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../../3./3.1/3.1.1.html">
+            
+                <a href="../../3./3.1/3.1.1.html">
+            
+                    
+                    3.1.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../../3./3.1/3.1.2.html">
+            
+                <a href="../../3./3.1/3.1.2.html">
+            
+                    
+                    3.1.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../3./3.2/">
+            
+                <a href="../../3./3.2/">
+            
+                    
+                    3.2 최초측정
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../../3./3.2/3.2.1.html">
+            
+                <a href="../../3./3.2/3.2.1.html">
+            
+                    
+                    3.2.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../../3./3.2/3.2.2-an.html">
+            
+                <a href="../../3./3.2/3.2.2-an.html">
+            
+                    
+                    3.2.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="../../3./3.2/undefined.html">
+            
+                <a href="../../3./3.2/undefined.html">
+            
+                    
+                    3.2.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../4./">
+            
+                <a href="../../4./">
+            
+                    
+                    4.후속측정
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../4./4.1./">
+            
+                <a href="../../4./4.1./">
+            
+                    
+                    4.1 이행현금흐름 후속측정
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="../../4./4.1./4.1.1.html">
+            
+                <a href="../../4./4.1./4.1.1.html">
+            
+                    
+                    4.1.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="../../4./4.1./4.1.2-an.html">
+            
+                <a href="../../4./4.1./4.1.2-an.html">
+            
+                    
+                    4.1.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="../../4./4.1./4.1.3.html">
+            
+                <a href="../../4./4.1./4.1.3.html">
+            
+                    
+                    4.1.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../4./4.2/">
+            
+                <a href="../../4./4.2/">
+            
+                    
+                    4.2 보험계약마진의 후속측정
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="../../4./4.2/4.2.1.html">
+            
+                <a href="../../4./4.2/4.2.1.html">
+            
+                    
+                    4.2.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="../../4./4.2/4.2.2-an.html">
+            
+                <a href="../../4./4.2/4.2.2-an.html">
+            
+                    
+                    4.2.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="../../4./4.2/4.2.3.html">
+            
+                <a href="../../4./4.2/4.2.3.html">
+            
+                    
+                    4.2.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../4./4.3/">
+            
+                <a href="../../4./4.3/">
+            
+                    
+                    4.3 손실부담계약
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../../4./4.3/4.3.1.html">
+            
+                <a href="../../4./4.3/4.3.1.html">
+            
+                    
+                    4.3.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="../../4./4.3/4.3.2-an.html">
+            
+                <a href="../../4./4.3/4.3.2-an.html">
+            
+                    
+                    4.3.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.3" data-path="../../4./4.3/4.3.3.html">
+            
+                <a href="../../4./4.3/4.3.3.html">
+            
+                    
+                    4.3.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../4./4.4.html">
+            
+                <a href="../../4./4.4.html">
+            
+                    
+                    4.4 보험취득 현금흐름의 후속측정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../4./4.5/">
+            
+                <a href="../../4./4.5/">
+            
+                    
+                    4.5 계약상태 변경 및 제거
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1" data-path="../../4./4.5/4.5.1.html">
+            
+                <a href="../../4./4.5/4.5.1.html">
+            
+                    
+                    4.5.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.2" data-path="../../4./4.5/4.5.2-an.html">
+            
+                <a href="../../4./4.5/4.5.2-an.html">
+            
+                    
+                    4.5.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.3" data-path="../../4./4.5/4.5.3.html">
+            
+                <a href="../../4./4.5/4.5.3.html">
+            
+                    
+                    4.5.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../5./">
+            
+                <a href="../../5./">
+            
+                    
+                    5. 보험료 배분 접근법
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../5./5.1/">
+            
+                <a href="../../5./5.1/">
+            
+                    
+                    5.1 적용조건 및 계약관리
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../../5./5.1/5.1.1.html">
+            
+                <a href="../../5./5.1/5.1.1.html">
+            
+                    
+                    5.1.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.2" data-path="../../5./5.1/5.1.2-an.html">
+            
+                <a href="../../5./5.1/5.1.2-an.html">
+            
+                    
+                    5.1.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.3" data-path="../../5./5.1/5.1.3.html">
+            
+                <a href="../../5./5.1/5.1.3.html">
+            
+                    
+                    5.1.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../5./5.2/">
+            
+                <a href="../../5./5.2/">
+            
+                    
+                    5.2 최초측정
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../../5./5.2/5.2.1.html">
+            
+                <a href="../../5./5.2/5.2.1.html">
+            
+                    
+                    5.2.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="../../5./5.2/5.2.2.html">
+            
+                <a href="../../5./5.2/5.2.2.html">
+            
+                    
+                    5.2.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../5./5.3/">
+            
+                <a href="../../5./5.3/">
+            
+                    
+                    5.3 후속측정
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="../../5./5.3/5.3.1.html">
+            
+                <a href="../../5./5.3/5.3.1.html">
+            
+                    
+                    5.3.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.2" data-path="../../5./5.3/5.3.2-an.html">
+            
+                <a href="../../5./5.3/5.3.2-an.html">
+            
+                    
+                    5.3.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.3" data-path="../../5./5.3/5.3.3.html">
+            
+                <a href="../../5./5.3/5.3.3.html">
+            
+                    
+                    5.3.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../6./">
+            
+                <a href="../../6./">
+            
+                    
+                    6. 변동수수료 접근법
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../6./6.1/">
+            
+                <a href="../../6./6.1/">
+            
+                    
+                    6.1 적용조건 및 계약관리
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="../../6./6.1/6.1.1.html">
+            
+                <a href="../../6./6.1/6.1.1.html">
+            
+                    
+                    6.1.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" data-path="../../6./6.1/6.1.2.html">
+            
+                <a href="../../6./6.1/6.1.2.html">
+            
+                    
+                    6.1.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.3" data-path="../../6./6.1/6.1.3.html">
+            
+                <a href="../../6./6.1/6.1.3.html">
+            
+                    
+                    6.1.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../6./6.2/">
+            
+                <a href="../../6./6.2/">
+            
+                    
+                    6.2 최초측정
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../../6./6.2/6.2.1.html">
+            
+                <a href="../../6./6.2/6.2.1.html">
+            
+                    
+                    6.2.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="../../6./6.2/6.2.2.html">
+            
+                <a href="../../6./6.2/6.2.2.html">
+            
+                    
+                    6.2.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../6./6.3/">
+            
+                <a href="../../6./6.3/">
+            
+                    
+                    6.3 후속측정
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.3.1" data-path="../../6./6.3/6.3.1.html">
+            
+                <a href="../../6./6.3/6.3.1.html">
+            
+                    
+                    6.3.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.2" data-path="../../6./6.3/6.3.2.html">
+            
+                <a href="../../6./6.3/6.3.2.html">
+            
+                    
+                    6.3.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    7. 출재보험계약
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../7.1/">
+            
+                <a href="../7.1/">
+            
+                    
+                    7.1 적용원칙 및 계약관리
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1.1" data-path="../7.1/7.1.1.html">
+            
+                <a href="../7.1/7.1.1.html">
+            
+                    
+                    7.1.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.2" data-path="../7.1/7.1.2.html">
+            
+                <a href="../7.1/7.1.2.html">
+            
+                    
+                    7.1.2 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    7.2 최초측정
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.2.1" data-path="7.2.1.html">
+            
+                <a href="7.2.1.html">
+            
+                    
+                    7.2.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2.2" data-path="7.2.2.html">
+            
+                <a href="7.2.2.html">
+            
+                    
+                    7.2.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7.2.3" data-path="7.2.3.html">
+            
+                <a href="7.2.3.html">
+            
+                    
+                    7.2.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../7.3/">
+            
+                <a href="../7.3/">
+            
+                    
+                    7.3 후속측정
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.3.1" data-path="../7.3/7.3.1.html">
+            
+                <a href="../7.3/7.3.1.html">
+            
+                    
+                    7.3.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3.2" data-path="../7.3/7.3.2.html">
+            
+                <a href="../7.3/7.3.2.html">
+            
+                    
+                    7.3.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3.3" data-path="../7.3/7.3.3.html">
+            
+                <a href="../7.3/7.3.3.html">
+            
+                    
+                    7.3.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../8/">
+            
+                <a href="../../8/">
+            
+                    
+                    8. 표시 및 공시
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../8/8.1/">
+            
+                <a href="../../8/8.1/">
+            
+                    
+                    8.1 표시
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1.1" data-path="../../8/8.1/8.1.1.html">
+            
+                <a href="../../8/8.1/8.1.1.html">
+            
+                    
+                    8.1.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.1.2" data-path="../../8/8.1/8.1.2.html">
+            
+                <a href="../../8/8.1/8.1.2.html">
+            
+                    
+                    8.1.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.1.3" data-path="../../8/8.1/8.1.3.html">
+            
+                <a href="../../8/8.1/8.1.3.html">
+            
+                    
+                    8.1.3 이슈사항 분석
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../../8/8.2/">
+            
+                <a href="../../8/8.2/">
+            
+                    
+                    8.2 공시
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.2.1" data-path="../../8/8.2/8.2.1.html">
+            
+                <a href="../../8/8.2/8.2.1.html">
+            
+                    
+                    8.2.1 기준서 주요내용
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2.2" data-path="../../8/8.2/8.2.2.html">
+            
+                <a href="../../8/8.2/8.2.2.html">
+            
+                    
+                    8.2.2 기준서 개정
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Reference Sites</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <a target="_blank" href="https://www.gofsolution.com">
+            
+                    
+                    Gofsolution
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" >
+            
+                <a target="_blank" href="https://blog.gofsolution.com">
+            
+                    
+                    Blogs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" >
+            
+                <a target="_blank" href="https://ifrs17.gofsolution.com">
+            
+                    
+                    App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../archives.html">
+            
+                <a href="../../archives.html">
+            
+                    
+                    Archives
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >7.2.3 이슈사항 분석</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="723-&#xC774;&#xC288;&#xC0AC;&#xD56D;-&#xBD84;&#xC11D;">7.2.3 &#xC774;&#xC288;&#xC0AC;&#xD56D; &#xBD84;&#xC11D;</h1>
+<p>&#xCD5C;&#xCD08;&#xC778;&#xC2DD;&#xC2DC;&#xC810;&#xC758; &#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC740; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xACFC; &#xAC19;&#xC774; &#xC774;&#xD589;&#xD604;&#xAE08;&#xD750;&#xB984;&#xACFC; &#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xB9C8;&#xC9C4;&#xC758; &#xD569;&#xC73C;&#xB85C; &#xCE21;&#xC815;&#xD574;&#xC57C; &#xD558;&#xBBC0;&#xB85C; &#xBBF8;&#xB798; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC758; &#xD604;&#xC7AC;&#xAC00;&#xCE58; &#xCD94;&#xC815;&#xCE58;, &#xBE44;&#xAE08;&#xC735;&#xC704;&#xD5D8;&#xC5D0; &#xB300;&#xD55C; &#xC704;&#xD5D8;&#xC870;&#xC815; &#xCE21;&#xC815; &#xB4F1;&#xC5D0; &#xC788;&#xC5B4; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC758; &#xCE21;&#xC815;&#xBC29;&#xBC95;&#xC744; &#xB530;&#xB974;&#xB294; &#xAC83;&#xC774; &#xC6D0;&#xCE59;&#xC784;. &#xADF8;&#xB7EC;&#xB098; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACC4;&#xC57D;&#xC870;&#xAC74;&#xC774; &#xC815;&#xD615;&#xD654;&#xB418;&#xC5B4; &#xC788;&#xC9C0; &#xC54A;&#xACE0;, &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xD2B9;&#xC131; &#xBC0F; &#xACC4;&#xC57D;&#xC0C1; &#xC635;&#xC158;&#xC744; &#xC774;&#xD589;&#xD604;&#xAE08;&#xD750;&#xB984;&#xC5D0; &#xBC18;&#xC601;&#xD574;&#xC57C; &#xD568;&#xC5D0; &#xB530;&#xB77C; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC740; &#xC2E4;&#xBB34;&#xC801;&#xC778; &#xC774;&#xC288;&#xAC00; &#xBC1C;&#xC0DD;&#xD560; &#xAC83;&#xC73C;&#xB85C; &#xC608;&#xC0C1;&#xB428;.</p>
+<p><div class="alert alert-undefined hints-alert"><div class="hints-icon"><i class="undefined"></i></div><div class="hints-container"><ul>
+<li>&#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &#xD310;&#xB2E8; </li>
+<li>&#xBBF8;&#xB798;&#xD604;&#xAE08;&#xD750;&#xB984;&#xC758; &#xD604;&#xC7AC;&#xAC00;&#xCE58; &#xCD94;&#xC815;&#xCE58; \
+: &#xBBF8;&#xB798; &#xD604;&#xAE08;&#xD750;&#xB984; &#xCD94;&#xC815;, &#xD560;&#xC778;&#xC728; &#xC801;&#xC6A9; </li>
+<li>&#xC7AC;&#xBCF4;&#xD5D8;&#xC790;&#xC758; &#xBD88;&#xC774;&#xD589;(&#xC2E0;&#xC6A9;) &#xC704;&#xD5D8;</li>
+<li>&#xBE44;&#xAE08;&#xC735;&#xC704;&#xD5D8;&#xC5D0;  &#xB300;&#xD55C; &#xC704;&#xD5D8;&#xC870;&#xC815; </li>
+</ul>
+</div></div></p>
+<h2 id="&#xACC4;&#xC57D;&#xC758;-&#xACBD;&#xACC4;-">&#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; </h2>
+<p>&#xC77C;&#xBC18;&#xC801;&#xC778; &#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB294; &#xBCF4;&#xC7A5;&#xC11C;&#xBE44;&#xC2A4;&#xB97C; &#xC81C;&#xACF5;&#xD55C; &#xC2E4;&#xC9C8;&#xC801;&#xC778; &#xAD8C;&#xB9AC;&#xC640; &#xC758;&#xBB34;&#xAC00; &#xC874;&#xC7AC;&#xD558;&#xB294; &#xAE30;&#xAC04;&#xAE4C;&#xC9C0;&#xB85C;, &#xC5EC;&#xAE30;&#xC5D0;&#xC11C; &#xC2E4;&#xC9C8;&#xC801;&#xC778; &#xAD8C;&#xB9AC;&#xB780; &#xBCF4;&#xD5D8;&#xB8CC;&#xB97C; &#xC218;&#xB839;&#xD560; &#xAD8C;&#xB9AC;&#xC774;&#xACE0; &#xC2E4;&#xC9C8;&#xC801;&#xC778; &#xC758;&#xBB34;&#xB780; &#xBCF4;&#xD5D8;&#xAE08; &#xB4F1; &#xAE09;&#xBD80;&#xB97C; &#xC9C0;&#xAE09;&#xD560; &#xC758;&#xBB34;&#xB97C; &#xC758;&#xBBF8;&#xD568;. &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC5D0;&#xC11C; &#xBCF4;&#xC7A5;&#xC744; &#xC81C;&#xACF5;&#xD560; &#xC2E4;&#xC9C8;&#xC801; &#xC758;&#xBB34;&#xB294; &#xAE30;&#xC5C5;&#xC5D0;&#xAC8C; &#xD2B9;&#xC815; &#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC790; &#xB610;&#xB294; &#xD3EC;&#xD2B8;&#xD3F4;&#xB9AC;&#xC624;&#xC758; &#xC704;&#xD5D8;&#xC744; &#xC7AC;&#xD3C9;&#xAC00;&#xD560; &#xC2E4;&#xC81C;&#xC801;&#xC778; &#xB2A5;&#xB825;&#xC774; &#xC788;&#xC73C;&#xBA70; &#xADF8;&#xB7EC;&#xD55C; &#xC704;&#xD5D8;&#xC744; &#xC644;&#xC804;&#xD788; &#xBC18;&#xC601;&#xD55C; &#xAC00;&#xACA9; &#xB610;&#xB294; &#xAE09;&#xBD80;&#xC758; &#xC218;&#xC900;&#xC744; &#xACB0;&#xC815;&#xD560; &#xC218; &#xC788;&#xB294; &#xB54C;&#xC5D0; &#xC885;&#xB8CC;&#xB428;. </p>
+<p>&#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC740; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xACFC; &#xAC19;&#xC774; &#xBB38;&#xB2E8; 32&#xC5D0; &#xB530;&#xB77C; &#xC774;&#xD589;&#xD604;&#xAE08;&#xD750;&#xB984;&#xACFC; &#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xB9C8;&#xC9C4;&#xC758; &#xD569;&#xACC4;&#xB85C; &#xCE21;&#xC815;&#xB418;&#xBBC0;&#xB85C; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC5D0;&#xC11C; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB294; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &#xAE30;&#xC900;&#xC744; &#xC801;&#xC6A9;&#xD574;&#xC57C; &#xD558;&#xB294; &#xAC83;&#xCC98;&#xB7FC; &#xC778;&#xC2DD;&#xB420; &#xC218; &#xC788;&#xC73C;&#xB098;, &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xACFC; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D; &#xAC04;&#xC758; &#xCD5C;&#xCD08;&#xC778;&#xC2DD;&#xC77C;&#xC774; &#xB2EC;&#xB77C; &#xB450; &#xACC4;&#xC57D;&#xC758; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xAC00; &#xB2E4;&#xB97C; &#xC218; &#xC788;&#xC73C;&#xBA70; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xAE30;&#xC900;&#xC11C; &#xBB38;&#xB2E8;&#xC744; &#xADF8;&#xB300;&#xB85C; &#xC801;&#xC6A9; &#xAC00;&#xB2A5;&#xD55C;&#xC9C0;&#xC5D0; &#xB300;&#xD55C; &#xC774;&#xC288;&#xAC00; &#xC788;&#xC74C;. TRG Meeting &#xC5D0;&#xC11C;&#xB294; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB97C; &#xC5B4;&#xB5BB;&#xAC8C; &#xC801;&#xC6A9;&#xD560; &#xAC83;&#xC778;&#xAC00;&#xC5D0; &#xB300;&#xD574; &#xC5EC;&#xB7EC;&#xBC88; &#xB17C;&#xC758;&#xD558;&#xC600;&#xC73C;&#xBA70;, &#xC694;&#xC57D;&#xD558;&#xBA74; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC74C; </p>
+<p><img src="../../.gitbook/assets/&#xD45C; &#xBCC0;&#xACBD; 7.png" alt="&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D; &#xAD00;&#xB828; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; TRG &#xB17C;&#xC758;&#xC0AC;&#xD56D;"></p>
+<ul>
+<li><p>2018&#xB144; 2&#xC6D4; TRG </p>
+<ul>
+<li>&#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC5D0;&#xC11C; &#xBCF4;&#xC7A5;&#xC744; &#xC81C;&#xACF5;&#xBC1B;&#xC744; &#xC2E4;&#xC9C8;&#xC801;&#xC778; &#xAD8C;&#xB9AC;&#xB294; &#xC7AC;&#xBCF4;&#xD5D8;&#xC790;&#xC5D0;&#xAC8C; &#xB2F9;&#xD574; &#xACC4;&#xC57D;&#xC758; &#xC704;&#xD5D8;&#xC744; &#xC7AC;&#xD3C9;&#xAC00;&#xD560; &#xC2E4;&#xC81C;&#xC801; &#xB2A5;&#xB825;&#xC774; &#xC788;&#xC73C;&#xBA70;, &#xC7AC;&#xBCF4;&#xD5D8;&#xC790;&#xAC00; &#xADF8;&#xB7EC;&#xD55C; &#xC704;&#xD5D8;&#xC744; &#xC644;&#xC804;&#xD788; &#xBC18;&#xC601;&#xD55C; &#xAC00;&#xACA9; &#xB610;&#xB294; &#xAE09;&#xBD80;&#xC758; &#xC218;&#xC900;&#xC744; &#xACB0;&#xC815;&#xD560; &#xC218; &#xC788;&#xAC70;&#xB098; &#xBCF4;&#xC7A5;&#xC744; &#xC885;&#xB8CC;&#xD560; &#xC218; &#xC788;&#xB294; &#xB54C;&#xC5D0; &#xC885;&#xB8CC;&#xB428; </li>
+<li>&#xC774;&#xC5D0; &#xB530;&#xB77C; &#xBBF8;&#xB798;&#xC5D0; &#xBC1C;&#xD589;&#xB420; &#xAC83;&#xC73C;&#xB85C; &#xC608;&#xC0C1;&#xB418;&#xBA70; &#xC7AC;&#xBCF4;&#xD5D8;&#xC5D0; &#xC758;&#xD574; &#xBCF4;&#xC7A5;&#xB41C; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xACFC; &#xAD00;&#xB828;&#xB41C; &#xD604;&#xAE08;&#xD750;&#xB984;&#xB3C4; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &#xBC94;&#xC704; &#xC548;&#xC5D0; &#xD3EC;&#xD568;&#xB420; &#xC218; &#xC788;&#xC74C;</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>2018&#xB144; 5&#xC6D4; TRG</p>
+<ul>
+<li>&#xC7AC;&#xBCF4;&#xD5D8;&#xC790;&#xC5D0; &#xC758;&#xD55C; &#xAC00;&#xACA9;&#xC870;&#xC815;&#xC774; &#xAC00;&#xB2A5;&#xD55C; &#xC2DC;&#xC810;&#xC5D0; &#xC2E4;&#xC9C8;&#xC801;&#xC778; &#xAD8C;&#xB9AC;&#xAC00; &#xC18C;&#xBA78;&#xD558;&#xB098;, &#xC7AC;&#xBCF4;&#xD5D8;&#xC790;&#xAC00; &#xAC00;&#xACA9;&#xC870;&#xC815;&#xC744; &#xD558;&#xC9C0; &#xC54A;&#xC740; &#xACBD;&#xC6B0; &#xACC4;&#xC57D;&#xC774; &#xC874;&#xC18D;&#xB418;&#xBA70;, &#xC7AC;&#xBCF4;&#xD5D8;&#xC790;&#xC758; &#xC120;&#xD0DD;&#xC744; &#xD68C;&#xC0AC;&#xAC00; &#xD1B5;&#xC81C;&#xD560; &#xC218; &#xC5C6;&#xC73C;&#xBBC0;&#xB85C; &#xC2E4;&#xC9C8;&#xC801;&#xC778; &#xC758;&#xBB34;&#xB294; &#xB9CC;&#xAE30;&#xAE4C;&#xC9C0; &#xC874;&#xC18D;&#xB41C;&#xB2E4;&#xB294; &#xACB0;&#xB860;&#xC744; &#xB0B4;&#xB9BC; </li>
+<li>&#xB530;&#xB77C;&#xC11C; &#xC2E4;&#xC9C8;&#xC801;&#xC778; &#xAD8C;&#xB9AC;&#xB294; 3&#xAC1C;&#xC6D4; &#xC774;&#xD6C4;&#xC5D0; &#xC18C;&#xBA78;&#xD558;&#xC9C0;&#xB9CC; &#xC2E4;&#xC9C8;&#xC801; &#xC758;&#xBB34;&#xB294; &#xB9CC;&#xAE30;&#xAE4C;&#xC9C0; &#xB0A8;&#xC544;&#xC788;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB97C; &#xACB0;&#xC815;&#xD560; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC744; &#xD655;&#xC815;&#xD558;&#xB294; &#xAE30;&#xAC04;&#xC740; &#xB9CC;&#xAE30;&#xC5D0; &#xD574;&#xB2F9;&#xD568; </li>
+</ul>
+</li>
+</ul>
+<ul>
+<li> 2018&#xB144; 9&#xC6D4; TRG<ul>
+<li>IFRS 17&#xC758; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB97C; &#xC704;&#xD55C; &#xD310;&#xB2E8;&#xC740; &#xD558;&#xB098;&#xC774;&#xBA70;, &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xACFC; &#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC5D0; &#xC77C;&#xAD00;&#xB41C; &#xAE30;&#xC900;&#xC774; &#xC801;&#xC6A9;&#xB428; </li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><strong>[&#xCC38;&#xACE0;] 2018&#xB144; 2&#xC6D4; TRG &quot;&#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&quot;</strong> </p>
+<p><em>Review of accounting requirements</em></p>
+<p>10. The staff observe that in reading paragraph 34, and other paragraphs of IFRS 17 when relevant, for the purpose of applying them to reinsurance contracts held, the words should be adapted in a way that is appropriate for reinsurance contracts held. For reinsurance contracts held, premiums are paid rather than received and services are received rather than provided. This observation is consistent with paragraph 4 of IFRS 17. </p>
+<p>11. The staff view is that the cash flows within the boundary of the reinsurance contract held arise from the substantive rights and obligations of the entity i.e. the holder of the contract. The substantive right is to receive services from the reinsurer. The substantive obligation is to pay amounts to the reinsurer. </p>
+<p>12. Consistently, a substantive right to receive services from the reinsurer ends when the reinsurer has the practical ability to reassess the risks transferred to the reinsurer and can set a price or level of benefits for the contract to fully reflect the reassessed risk. </p>
+<p>13. Therefore, the staff observe that a substantive right of the reinsurer to terminate the coverage would result in the entity not having the substantive right to receive service. Also, the reinsurer&#x2019;s practical ability to reassess the risks based on the claims experience of the reinsured contracts and to set a premium or level of benefits to fully reflect the reassessed risk means that the entity&#x2019;s substantive right to receive service from the reinsurer ends. </p>
+<p><strong>2018&#xB144; 5&#xC6D4; TRG &quot;&#xAC00;&#xACA9; &#xC7AC;&#xC0B0;&#xC815;&#xC774; &#xAC00;&#xB2A5;&#xD55C; &#xBCF4;&#xC720;&#xD558;&#xACE0; &#xC788;&#xB294; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&quot;</strong> </p>
+<p><em>Review of accounting requirements</em></p>
+<p>15. The TRG also observed that for some reinsurance contracts, the reinsurer can terminate the coverage at any time with a three month notice period. In these circumstances, the contract boundary would exclude cash flows arising from the reinsurance contract held that are related to underlying insurance contracts issued outside of that three month notice period because the entity no longer has a right to receive services from the reinsurer. </p>
+<p>16. The staff observe that the above observations are valid in the context of assessing when the substantive right to receive services from the reinsurer ends. The discussion at the TRG was based on a fact pattern where no substantive obligation to pay premiums to the reinsurer exists, and therefore TRG members did not discuss this aspect of the requirements of paragraph 34 of IFRS 17. The fact pattern in this paper considers when the entity must continue to pay premiums to the reinsurer if the reinsurer does not reprice the contract. </p>
+<p>17. The staff view is that a right to terminate coverage that is triggered by the reinsurer&#x2019;s decision to reprice the reinsurance contract is not relevant when considering whether a substantive obligation to pay premiums exists. Such a right is not within the entity&#x2019;s control and therefore the entity would continue to be compelled to pay premiums for the entire contractual term. </p>
+<p><strong>[&#xCC38;&#xACE0;] 2018&#xB144; 9&#xC6D4; TRG &quot;&#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &#xAD00;&#xB828;&quot;</strong></p>
+<p><em>Example 3&#x2014;Proportional reinsurance contract held</em></p>
+<p>A12. The reinsurance contract held: </p>
+<p>(a) is issued and recognised on 1 January; </p>
+<p>(b) covers a proportion of all risks arising from underlying insurance contracts issued in a 24-month period (ie the entity transfers to the reinsurer a proportion of the premiums from the underlying insurance contracts and the reinsurer reimburses to the entity the same proportion of claims arising from underlying insurance contracts); and </p>
+<p>(c) provides the unilateral right to both the entity and the reinsurer to terminate the contract with a three month notice period to the other party with respect to new business ceded only. </p>
+<p>A13. At initial recognition, the entity buying the reinsurance contract concludes that cash flows within the reinsurance contract boundary are those arising from underlying contracts expected to be issued and ceded within a three month period. Since the reinsurer can terminate the coverage with respect to new business ceded with three months notice, the entity has no substantive right to receive services with respect to new business expected to be ceded after a three month period. Cash flows related to the underlying insurance contracts expected to be issued and ceded in the last 21 months of the reinsurance contract are outside the contract boundary and are therefore related to a future reinsurance contract(s). </p>
+<p>A14. The entity&#x2019;s reporting date is 31 March. At 31 March, neither the entity nor the reinsurer has given notice to terminate the reinsurance contract with respect to new business ceded. </p>
+<p>A15. Applying paragraph B64 of IFRS 17 would not cause a reassessment of the contract boundary since the contract boundary determination at initial recognition was not based on an assessment of the practical ability to set a price that fully reflected the risks in the contract. Applying paragraph 35 of IFRS 17, the cash flows related to underlying contracts that are expected to be issued and ceded in the next three month period are cash flows outside the existing contract boundary as at 31 March and relate to a future reinsurance contract(s) held. That (future) contract would be recognised applying paragraph 62 of IFRS 17 and the cash flows within the boundary of that contract would be determined on this date applying paragraph 34 of IFRS 17. </p>
+<p>A16. One submission raises a concern that applying this approach may result in daily reinsurance contracts being recognised for every day passing without either party exercising its termination rights with respect to new business ceded. However, the staff observe that reinsurance contracts held are recognised only when the recognition criteria in paragraph 62 of IFRS 17 are met. In the fact pattern provided, this is likely to be 1 April or later. The contract boundary is determined at the date of initial recognition, applying paragraphs 32&#x2013;35 of IFRS 17. In this example, this will result in a new reinsurance contract held being recognised after the end of the first three month period with a contract boundary of cash flows arising from contracts expected to be ceded in the following three months&#x2014;ie at 1 April the measurement of the first reinsurance contract held would reflect the coverage on the underlying contracts issued and ceded from 1 January to 31 March and the measurement of the second reinsurance contract held would reflect coverage on the underlying contracts expected to be issued and ceded in the period from 1 April until 30 June. Subject to paragraph 16 of IFRS 17, all of these reinsurance contracts held could belong to an annual group of contracts applying the level of aggregation criteria. </p>
+<p>A17. The submission includes an additional fact pattern in which there is (or there is not) a unilateral right for the reinsurer to amend the rate of the ceding commission 
+it pays, in addition to the unilateral termination rights. The submission notes a possible view that a contract extended with repricing might be accounted for differently if extended without repricing. The staff observe that in this fact pattern, the existence of the right to terminate the contract with a three month notice period determines the cash flows within the contract boundary regardless of the existence of a right to amend the rate of the ceding commission if the contract is not terminated. Therefore, the same accounting would be applied to the additional fact pattern provided. <em>**</em></p>
+</blockquote>
+<p>TRG&#xC5D0;&#xC11C; &#xB17C;&#xC758;&#xB41C; &#xAC83;&#xACFC; &#xAC19;&#xC774; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB294; &#xACC4;&#xC57D;&#xC73C;&#xB85C; &#xC778;&#xD55C; &#xC2E4;&#xC9C8;&#xC801;&#xC778; &#xAD8C;&#xB9AC; &#xBC0F; &#xC758;&#xBB34;&#xB97C; &#xBAA8;&#xB450; &#xACE0;&#xB824;&#xD558;&#xC5EC; &#xD310;&#xB2E8;&#xD574;&#xC57C; &#xD558;&#xBA70;, &#xC774; &#xB450; &#xAC00;&#xC9C0;&#xAC00; &#xBAA8;&#xB450; &#xC18C;&#xBA78;&#xB420; &#xB54C;&#xC5D0;&#xB9CC; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xAC00; &#xC885;&#xB8CC;&#xB418;&#xBA70;, &#xD558;&#xB098;&#xB9CC; &#xC18C;&#xBA78;&#xB420; &#xB54C;&#xC5D0; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB294; &#xC874;&#xC18D;&#xB418;&#xB294; &#xAC83;&#xC73C;&#xB85C; &#xC778;&#xC2DD;&#xD574;&#xC57C; &#xD568;. </p>
+<p>&#xB2E4;&#xB9CC;, &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC740; &#xACC4;&#xC57D;&#xC870;&#xAC74;&#xC774; &#xC815;&#xD615;&#xD654;&#xB418;&#xC5B4; &#xC788;&#xC9C0; &#xC54A;&#xC544; &#xBC1C;&#xD589;&#xC790;&#xC640; &#xBCF4;&#xC720;&#xC790;&#xC758; &#xAD8C;&#xD55C;&#xC774; &#xACC4;&#xC57D;&#xB9C8;&#xB2E4; &#xB2E4;&#xC591;&#xD558;&#xACE0; &#xBB38;&#xB2E8; 2&#xC5D0;&#xC11C; &#xADDC;&#xC815;&#xD55C; &#xBC14;&#xC640; &#xAC19;&#xC774; &#xACC4;&#xC57D;&#xC870;&#xAC74;&#xC740; &#xC11C;&#xBA74; &#xBFD0; &#xC544;&#xB2C8;&#xB77C; &#xAD6C;&#xB450;, &#xAD00;&#xD589;, &#xBC95; &#xADDC;&#xC815; &#xB4F1; &#xB2E4;&#xC591;&#xD55C; &#xD615;&#xC2DD;&#xC744; &#xAC00;&#xC9C8; &#xC218; &#xC788;&#xC73C;&#xBBC0;&#xB85C; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACC4;&#xC57D;&#xC870;&#xAC74; &#xC0C1;&#xC758; &#xC2E4;&#xC9C8;&#xC801;&#xC778; &#xAD8C;&#xB9AC; &#xBC0F; &#xC758;&#xBB34;&#xC5D0; &#xB530;&#xB77C; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xAC00; &#xACB0;&#xC815;&#xB428;. &#xC774;&#xB97C; &#xACE0;&#xB824;&#xD558;&#xC5EC; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB97C; &#xD310;&#xB2E8;&#xD558;&#xB294; &#xD504;&#xB85C;&#xC138;&#xC2A4;&#xB294; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC74C;. </p>
+<p><img src="../../.gitbook/assets/&#xADF8;&#xB9BC;7-9.png" alt="&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &#xD310;&#xB2E8; &#xD504;&#xB85C;&#xC138;&#xC2A4; "></p>
+<p>&#xC7AC;&#xBCF4;&#xD5D8;&#xC0AC;&#xAC00; 3&#xAC1C;&#xC6D4; &#xAC04;&#xC758; &#xC0AC;&#xC804; &#xD1B5;&#xC9C0;&#xB97C; &#xD1B5;&#xD574; &#xBCF4;&#xC7A5;&#xC744; &#xC885;&#xB8CC;&#xD558;&#xAC70;&#xB098; &#xBCF4;&#xD5D8;&#xB8CC;&#xB97C; &#xC870;&#xC815;&#xD560; &#xC218; &#xC788;&#xB2E4;&#xBA74; &#xC2E4;&#xC9C8;&#xC801;&#xC778; &#xAD8C;&#xB9AC;&#xC640; &#xC758;&#xBB34;&#xB294; &#xC778;&#xC2DD;&#xC2DC;&#xC810;&#xBD80;&#xD130; 3&#xAC1C;&#xC6D4;&#xAC04; &#xC874;&#xC18D;&#xB418;&#xB098;, &#xC0AC;&#xC804; &#xD1B5;&#xC9C0;&#xC5C6;&#xC774; &#xBCF4;&#xC7A5;&#xAE30;&#xAC04; &#xC911;&#xC5D0; &#xC544;&#xBB34; &#xB54C;&#xB098; &#xBCF4;&#xC7A5;&#xC744; &#xC885;&#xB8CC;&#xD558;&#xAC70;&#xB098; &#xBCF4;&#xD5D8;&#xB8CC;&#xB97C; &#xC870;&#xC815;&#xD560; &#xC218; &#xC788;&#xB2E4;&#xBA74; &#xC2E4;&#xC9C8;&#xC801;&#xC778; &#xAD8C;&#xB9AC;&#xC640; &#xC758;&#xBB34;&#xB294; &#xC874;&#xC18D;&#xD558;&#xC9C0; &#xC54A;&#xC744; &#xAC83;&#xC784;. </p>
+<p>&#xB9CC;&#xC57D; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xACFC; &#xAD00;&#xB828;&#xB41C; &#xBAA8;&#xB4E0; &#xBCF4;&#xC7A5;&#xC744; &#xC18C;&#xBA78;&#xC2DC;&#xD0A8;&#xB2E4;&#xBA74;, &#xC885;&#xB8CC; &#xC2DC;&#xC810; &#xC774;&#xD6C4;&#xC5D0; &#xBC1C;&#xC0DD;&#xD558;&#xB294; &#xBAA8;&#xB4E0; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC744; &#xC774;&#xD589;&#xD604;&#xAE08;&#xD750;&#xB984;&#xC5D0;&#xC11C; &#xC81C;&#xC678;&#xD574;&#xC57C; &#xD558;&#xBA70;, &#xBCF4;&#xC7A5;&#xC758; &#xC885;&#xB8CC;&#xAC00; &#xD5A5;&#xD6C4; &#xBC1C;&#xD589;&#xB420; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xACFC; &#xAD00;&#xB828;&#xB41C; &#xBCF4;&#xC7A5;&#xB9CC; &#xC18C;&#xBA78;&#xC2DC;&#xD0A8;&#xB2E4;&#xBA74;, &#xBBF8;&#xB798; &#xBC1C;&#xD589;&#xB420; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xACFC; &#xAD00;&#xB828;&#xB41C; &#xD604;&#xAE08;&#xD750;&#xB984;&#xB9CC; &#xC774;&#xD589;&#xD604;&#xAE08;&#xD750;&#xB984;&#xC5D0;&#xC11C; &#xC81C;&#xC678;&#xD558;&#xACE0; &#xC774;&#xBBF8; &#xBC1C;&#xD589;&#xB41C; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xACFC; &#xAD00;&#xB828;&#xB41C; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC740; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &#xC548;&#xC5D0; &#xC788;&#xC73C;&#xBBC0;&#xB85C; &#xC774;&#xD589;&#xD604;&#xAE08;&#xD750;&#xB984;&#xC5D0; &#xD3EC;&#xD568;&#xD568;. &#xB610;&#xD55C; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &#xC2DC;&#xC810;&#xC5D0; &#xBCF4;&#xC7A5;&#xC774; &#xC885;&#xB8CC;&#xB418;&#xAC70;&#xB098; &#xBCF4;&#xD5D8;&#xB8CC;&#xAC00; &#xC870;&#xC815;&#xB418;&#xC9C0; &#xC54A;&#xB294; &#xACBD;&#xC6B0; &#xCD94;&#xAC00;&#xB418;&#xB294; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC740; &#xC2E0;&#xACC4;&#xC57D;&#xC73C;&#xB85C; &#xCC98;&#xB9AC;&#xD558;&#xACE0; &#xAE30;&#xC874; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB294; &#xBCC0;&#xACBD;&#xD558;&#xC9C0; &#xC54A;&#xC74C;.  </p>
+<p>&#xAD6D;&#xC81C;&#xACC4;&#xB9AC;&#xC0AC;&#xD68C;&#xC640; &#xD638;&#xC8FC;&#xACC4;&#xB9AC;&#xC0AC;&#xD68C;&#xC5D0;&#xC11C; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB294; &#xACC4;&#xC57D;&#xC758; &#xB2F9;&#xC0AC;&#xC790;&#xC758; &#xC2E4;&#xC9C8;&#xC801;&#xC778; &#xAD8C;&#xB9AC;&#xC640; &#xC758;&#xBB34; &#xAD00;&#xC810;&#xC5D0;&#xC11C; &#xACB0;&#xC815;&#xB418;&#xBA70;, &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xD2B9;&#xC131;&#xC744; &#xBC18;&#xC601;&#xD558;&#xACE0; &#xD3C9;&#xAC00;&#xC5D0; &#xC0AC;&#xC6A9;&#xB41C; &#xD2B9;&#xC57D;&#xC11C; &#xC0C1; &#xD3EC;&#xD568;&#xB41C; &#xACC4;&#xC57D;&#xC0C1; &#xC635;&#xC158;(&#xC2E0;&#xACC4;&#xC57D; Recapture, &#xC0AC;&#xC804; &#xD1B5;&#xC9C0;&#xC758;&#xBB34;, &#xBCF5;&#xC6D0; &#xB4F1;) &#xD589;&#xC0AC;&#xC5EC;&#xBD80;&#xB97C; &#xBC18;&#xC601;&#xD574;&#xC57C; &#xD55C;&#xB2E4;&#xB294; &#xC758;&#xACAC;&#xC744; &#xC81C;&#xC2DC;&#xD558;&#xC600;&#xC73C;&#xBA70;, &#xAD00;&#xB828;&#xD558;&#xC5EC; &#xC0DD;&#xBA85;&#xBCF4;&#xD5D8;&#xD611;&#xD68C;&#xC640; &#xD55C;&#xAD6D;&#xBCF4;&#xD5D8;&#xACC4;&#xB9AC;&#xC0AC;&#xD68C;&#xC5D0;&#xC11C;&#xB294; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC740; &#xC758;&#xACAC;&#xC744; &#xC81C;&#xC2DC;&#xD568;. </p>
+<p><div class="alert alert-undefined hints-alert"><div class="hints-icon"><i class="undefined"></i></div><div class="hints-container"><p><strong>&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &#xD310;&#xB2E8;&#xAE30;&#xC900;</strong></p>
+<ul>
+<li><p>&#xCD5C;&#xC18C; &#xACC4;&#xC57D; &#xB2E8;&#xC704;&#xBCC4; Treaty&#xC5D0; &#xB530;&#xB77C; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &#xD310;&#xB2E8; </p>
+<ul>
+<li>&#xBC29;&#xC548; 1) &#xD611;&#xC57D;&#xC11C; &#xBCC4;&#xB85C; &#xC911;&#xB2E8;&#xC635;&#xC158;(Recapture &#xC870;&#xD56D;)&#xC774; &#xC874;&#xC7AC;&#xD558;&#xB294; &#xACBD;&#xC6B0; <ul>
+<li>&#xC7AC;&#xBCF4;&#xD5D8;&#xC0AC;&#xB294; &#xD569;&#xC758;&#xAC00; &#xC5C6;&#xB354;&#xB77C;&#xB3C4; &#xD611;&#xC57D;&#xC11C; &#xC870;&#xAC74;&#xC5D0; &#xB530;&#xB77C; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB97C; &#xD310;&#xB2E8;&#xD574;&#xC57C; &#xD558;&#xBA70;, &#xC870;&#xAC74;&#xC5D0; &#xB530;&#xB77C; &#xC0C1;&#xC758;&#xD558;&#xAC8C; &#xC815;&#xC758;</li>
+<li>&#xC7AC;&#xBCF4;&#xD5D8;&#xC790; &#xD639;&#xC740; &#xD68C;&#xC0AC; &#xC911; &#xD558;&#xB098;&#xAC00; &#xCD9C;&#xC7AC; &#xC911;&#xB2E8;&#xC635;&#xC158; &#xC874;&#xC7AC;&#xC2DC;, &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB294; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D; &#xB9CC;&#xAE30;&#xAE4C;&#xC9C0; &#xD3EC;&#xD568; </li>
+<li>&#xC7AC;&#xBCF4;&#xD5D8;&#xC790; &#xD639;&#xC740; &#xD68C;&#xC0AC; &#xBAA8;&#xB450; &#xCD9C;&#xC7AC; &#xBC0F; &#xC218;&#xC7AC; &#xC911;&#xB2E8;&#xC635;&#xC158;&#xC774; &#xC788;&#xB294; &#xACBD;&#xC6B0;, &#xC591;&#xCE21; &#xBAA8;&#xB450;&#xC758; &#xC635;&#xC158; &#xAD8C;&#xD55C;&#xC774; &#xBC1C;&#xC0DD;&#xD558;&#xB294; &#xC2DC;&#xC810;&#xAE4C;&#xC9C0; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xAC00; &#xB2E8;&#xC808;&#xB428; </li>
+</ul>
+</li>
+<li><p> &#xBC29;&#xC548; 2) &#xD611;&#xC57D;&#xC11C; &#xBCC4;&#xB85C; &#xC911;&#xB2E8;&#xC635;&#xC158;(Recapture &#xC870;&#xD56D;)&#xC774; &#xC874;&#xC7AC;&#xD558;&#xC9C0; &#xC54A;&#xB294; &#xACBD;&#xC6B0;</p>
+<ul>
+<li>&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB294; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xB9CC;&#xAE30;&#xB85C; &#xC124;&#xC815;&#xD558;&#xB294; &#xAC83;&#xC774; &#xD0C0;&#xB2F9;</li>
+<li>&#xC77C;&#xBC18;&#xC801;&#xC73C;&#xB85C; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC740; &#xB9E4;&#xB144; &#xAC31;&#xC2E0;&#xB418;&#xB294; &#xD615;&#xD0DC;&#xB85C; &#xCCB4;&#xACB0;&#xB418;&#xB098;, &#xAC31;&#xC2E0;&#xC2DC;&#xC810;&#xC5D0; &#xC30D;&#xBC29; &#xD569;&#xC758; &#xC5C6;&#xC774;&#xB294; &#xAC00;&#xACA9; &#xC7AC;&#xC124;&#xC815; &#xBD88;&#xAC00;</li>
+<li>&#xC7AC;&#xBCF4;&#xD5D8;&#xC790;&#xC640; &#xD68C;&#xC0AC;&#xC758; &#xD569;&#xC758; &#xD558;&#xC5D0; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC744; &#xC911;&#xB2E8;&#xD558;&#xC9C0; &#xC54A;&#xAE30;&#xB85C; &#xD588;&#xB2E4;&#xBA74; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xB9CC;&#xAE30;&#xAE4C;&#xC9C0; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC744; &#xC720;&#xC9C0; </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>&#xC911;&#xB2E8;&#xC635;&#xC158;(Recapture &#xC870;&#xD56D;)&#xACFC; &#xBB34;&#xAD00;&#xD558;&#xAC8C; &#xC6D0;&#xC218;&#xB9CC;&#xAE30;&#xC5D0; &#xB530;&#xB978; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &#xD310;&#xB2E8; </p>
+<ul>
+<li>Treaty &#xACC4;&#xC57D; &#xC2DC; &#xB9CC;&#xAE30;&#xC77C;&#xC744; &#xBA85;&#xC2DC;&#xD558;&#xACE0; &#xC7AC;&#xBCF4;&#xD5D8; &#xC870;&#xAC74;&#xC744; &#xC7AC;&#xAC80;&#xD1A0;&#xD560; &#xC218; &#xC788;&#xB294; &#xAD8C;&#xD55C;&#xC774; &#xC788;&#xB2E4; &#xD558;&#xB354;&#xB77C;&#xB3C4; &#xC6D0;&#xC218;&#xC0AC; &#xC785;&#xC7A5;&#xC5D0;&#xC11C; &#xC7AC;&#xBCF4;&#xD5D8;&#xC0AC;&#xB97C; &#xD1B5;&#xC81C; &#xBC0F; &#xC870;&#xC815;&#xD558;&#xB294; &#xAC83;&#xC774; &#xBD88;&#xAC00;&#xB2A5;&#xD558;&#xBBC0;&#xB85C;  &#xC7AC;&#xBCF4;&#xD5D8;&#xC0AC;&#xB85C;&#xBD80;&#xD130; &#xC11C;&#xBE44;&#xC2A4;&#xB97C; &#xBC1B;&#xC744; &#xC2E4;&#xC9C8;&#xC801;&#xC778; &#xAD8C;&#xB9AC;&#xAC00; Treaty &#xB9CC;&#xAE30;&#xC77C;&#xC5D0; &#xC885;&#xB8CC;&#xB41C;&#xB2E4;&#xACE0; &#xBCF4;&#xAE30; &#xC5B4;&#xB824;&#xC6C0; </li>
+<li>&#xB530;&#xB77C;&#xC11C; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB97C; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xB9CC;&#xAE30;&#xC77C;&#xAE4C;&#xC9C0;&#xB85C; &#xC124;&#xC815;&#xD574;&#xC57C; &#xD568;</li>
+</ul>
+<p> </p>
+</li>
+<li>&#xBBF8;&#xB798; &#xC2E0;&#xACC4;&#xC57D;&#xC758; &#xBC18;&#xC601;&#xC5EC;&#xBD80; &#xD310;&#xB2E8; <ul>
+<li>&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC11C; &#xC0C1; &#xC2E0;&#xACC4;&#xC57D; &#xCD9C;&#xC7AC; &#xC911;&#xB2E8; &#xAC00;&#xB2A5;&#xC131;&#xC774; &#xC788;&#xB294; &#xC2DC;&#xC810;&#xAE4C;&#xC9C0; &#xC2E0;&#xACC4;&#xC57D;&#xC744; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xC5D0; &#xD3EC;&#xD568; <ul>
+<li>&#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xC0AC; &#xD639;&#xC740; &#xC7AC;&#xBCF4;&#xD5D8;&#xC0AC; &#xC911; &#xC5B4;&#xB290; &#xC77C;&#xBC29;&#xC774; &#xC77C;&#xC815; &#xC2DC;&#xC810; &#xC774;&#xD6C4; &#xACC4;&#xC57D;&#xD574;&#xC9C0;&#xB97C; &#xC0AC;&#xC804; &#xD1B5;&#xBCF4;&#xD558;&#xBA74; &#xD574;&#xB2F9; &#xC2DC;&#xC810;&#xC5D0; &#xC2E0;&#xACC4;&#xC57D; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC774; &#xC885;&#xB8CC;&#xB418;&#xB294; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xC6B0;, &#xD574;&#xB2F9; &#xC2DC;&#xC810;&#xAE4C;&#xC9C0; &#xC2E0;&#xACC4;&#xC57D;&#xC744; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xC5D0; &#xD3EC;&#xD568;</li>
+<li>&#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xC0AC; &#xD639;&#xC740; &#xC7AC;&#xBCF4;&#xD5D8;&#xC0AC; &#xBAA8;&#xB450;&#xC5D0;&#xAC8C; &#xC989;&#xC2DC; &#xACC4;&#xC57D;&#xC744; &#xD574;&#xC9C0;&#xD560; &#xAD8C;&#xD55C;&#xC774; &#xC788;&#xB294; &#xACBD;&#xC6B0; &#xBBF8;&#xB798; &#xC2E0;&#xACC4;&#xC57D; &#xBB3C;&#xB7C9;&#xC758; &#xBC18;&#xC601;&#xC740; &#xBD88;&#xD544;&#xC694;&#xD568; </li>
+</ul>
+</li>
+<li>&#xBBF8;&#xB798; &#xC2E0;&#xACC4;&#xC57D;&#xC740; &#xD569;&#xB9AC;&#xC801;&#xC778; &#xBC29;&#xBC95;&#xC73C;&#xB85C; &#xBBF8;&#xB798; &#xC2E0;&#xACC4;&#xC57D;&#xC5D0; &#xD574;&#xB2F9;&#xD558;&#xB294; &#xBAA8;&#xB378;&#xD3EC;&#xC778;&#xD2B8;&#xB97C; &#xCD94;&#xAC00;&#xBC18;&#xC601;&#xD558;&#xC5EC; &#xD604;&#xAE08;&#xD750;&#xB984; &#xC0DD;&#xC131; <ul>
+<li>&#xC608;&#xC2DC; \
+: &#xBBF8;&#xB798; &#xC2E0;&#xACC4;&#xC57D;&#xC740; &#xB2F9;&#xC6D4; &#xC2E0;&#xACC4;&#xC57D;&#xC744; &#xBCF5;&#xC81C;&#xD558;&#xC5EC; &#xC0DD;&#xC131;&#xD55C; &#xD6C4; &#xD3EC;&#xD2B8;&#xD3F4;&#xB9AC;&#xC624; &#xC18D;&#xC131;&#xC744; &#xC870;&#xC815;&#xD558;&#xC5EC; &#xBC18;&#xC601; </li>
+<li>&#xC0C1;&#xD488; &#xD310;&#xB9E4;&#xC885;&#xB8CC; &#xC608;&#xC815;, &#xC2E0;&#xC0C1;&#xD488; &#xCD9C;&#xC2DC;, &#xC2E0;&#xACC4;&#xC57D;&#xBE44; &#xC815;&#xCC45; &#xBCC0;&#xACBD; &#xB4F1;&#xC73C;&#xB85C; &#xBB3C;&#xB7C9;&#xC774; &#xD06C;&#xAC8C; &#xBCC0;&#xB3D9;&#xD560; &#xAC83;&#xC73C;&#xB85C; &#xC608;&#xC0C1;&#xB418;&#xB294; &#xACBD;&#xC6B0; &#xD574;&#xB2F9; &#xD6A8;&#xACFC; &#xBC18;&#xC601; &#xAC00;&#xB2A5;   </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div></div></p>
+<p>&#xD55C;&#xD3B8;, &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC870;&#xAC74;&#xC73C;&#xB85C; &#xC778;&#xD574; &#xD604;&#xAE08;&#xD750;&#xB984; &#xCD94;&#xC815; &#xC2DC; &#xACB0;&#xC815;&#xB41C; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xC640; &#xC2E4;&#xC81C; &#xACC4;&#xC57D;&#xC774; &#xC885;&#xB8CC;&#xB41C; &#xC2DC;&#xC810;&#xC774; &#xC77C;&#xC9C0;&#xD558;&#xC9C0; &#xC54A;&#xC740; &#xACBD;&#xC6B0;&#xAC00; &#xBC1C;&#xC0DD;&#xD560; &#xC218; &#xC788;&#xB294;&#xB370;, &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xC0C1;&#xD669;&#xC5D0; &#xB530;&#xB978; &#xD310;&#xB2E8;&#xC774; &#xD544;&#xC694;&#xD568;.  </p>
+<p><img src="../../.gitbook/assets/&#xADF8;&#xB9BC;7-10.png" alt="&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xC640; &#xC2E4;&#xC81C; &#xC885;&#xB8CC;&#xC2DC;&#xC810; &#xBCC4; &#xD310;&#xB2E8;"></p>
+<ul>
+<li><p>&#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &gt; &#xC2E4;&#xC81C; &#xC885;&#xB8CC;&#xC2DC;&#xC810; </p>
+<ul>
+<li>&#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xAC00; &#xB9CC;&#xB8CC;&#xB418;&#xC5B4; &#xACC4;&#xC57D;&#xC744; &#xC81C;&#xAC70;&#xD574;&#xC57C; &#xD558;&#xBBC0;&#xB85C; &#xC2E4;&#xC81C; &#xC885;&#xB8CC;&#xC2DC;&#xC810; &#xC774;&#xD6C4;&#xC758; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC744; &#xC774;&#xD589;&#xD604;&#xAE08;&#xD750;&#xB984;&#xC5D0;&#xC11C; &#xC81C;&#xAC70;&#xD558;&#xACE0; &#xADF8; &#xBCC0;&#xB3D9;&#xC561;&#xC744; &#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xB9C8;&#xC9C4;&#xC5D0;&#xC11C; &#xC870;&#xC815; </li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>&#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &lt; &#xC2E4;&#xC81C; &#xC885;&#xB8CC;&#xC2DC;&#xC810; </p>
+<ul>
+<li>&#xAD6D;&#xC81C;&#xACC4;&#xB9AC;&#xC0AC;&#xD68C;&#xC640; &#xD638;&#xC8FC;&#xACC4;&#xB9AC;&#xC0AC;&#xD68C;&#xB294; &#xC6D0;&#xB798;&#xC758; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB97C; &#xC2E4;&#xC81C; &#xB9CC;&#xAE30;&#xAE4C;&#xC9C0; &#xD655;&#xC7A5;&#xD558;&#xACE0; &#xADF8; &#xD6A8;&#xACFC;&#xB97C; &#xC774;&#xD589;&#xD604;&#xAE08;&#xD750;&#xB984;&#xC73C;&#xB85C; &#xBC18;&#xC601;&#xD558;&#xB294; &#xBC29;&#xBC95;&#xACFC; &#xC0C8;&#xB85C;&#xC6B4; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB97C; &#xC9C0;&#xB2CC; &#xC2E0;&#xADDC; &#xACC4;&#xC57D;&#xC73C;&#xB85C; &#xCC98;&#xB9AC;&#xD558;&#xB294; &#xBC29;&#xBC95;&#xC774; &#xC788;&#xB2E4;&#xB294; &#xC758;&#xACAC;&#xC744; &#xC81C;&#xC2DC;&#xD568; </li>
+<li>&#xC774;&#xC640; &#xAD00;&#xB828;&#xD558;&#xC5EC; TRG Staff &#xBC0F; &#xB2E4;&#xC218; &#xC758;&#xC6D0;&#xC740; &#xAE30;&#xC874; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4;&#xB97C; &#xBC14;&#xAFB8;&#xC9C0; &#xC54A;&#xACE0; &#xCD94;&#xAC00;&#xB418;&#xB294; &#xD604;&#xAE08;&#xD750;&#xB984; &#xB9CC;&#xD07C;&#xC744; &#xC2E0;&#xACC4;&#xC57D;&#xC73C;&#xB85C; &#xBCF4;&#xC544;&#xC57C; &#xD55C;&#xB2E4;&#xACE0; &#xC8FC;&#xC7A5;&#xD558;&#xBA70;, &#xC774;&#xB294; &#xACC4;&#xC57D;&#xC758; &#xBCC0;&#xACBD;&#xC5D0; &#xD574;&#xB2F9;&#xD558;&#xB294; &#xC0C1;&#xD669;&#xC774; &#xC544;&#xB2C8;&#xB77C;&#xB294; &#xC758;&#xACAC;&#xC744; &#xC81C;&#xC2DC;&#xD568; </li>
+<li>&#xB530;&#xB77C;&#xC11C; &#xB2F9;&#xCD08; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &#xBC16;&#xC5D0; &#xC788;&#xB358; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC774; &#xBC1C;&#xC0DD;&#xD558;&#xB294; &#xACBD;&#xC6B0; &#xCD94;&#xAC00;&#xB418;&#xB294; &#xD604;&#xAE08;&#xD750;&#xB984; &#xB9CC;&#xD07C;&#xC740; &#xC2E0;&#xADDC;&#xACC4;&#xC57D;&#xC73C;&#xB85C; &#xC778;&#xC2DD;&#xD558;&#xB294; &#xAC83;&#xC774; &#xD0C0;&#xB2F9;&#xD568; </li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>&#xB9CC;&#xAE30;&#xC2DC;&#xC810; : &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; = &#xC2E4;&#xC81C; &#xC885;&#xB8CC;&#xC2DC;&#xC810; </p>
+<ul>
+<li>&#xACC4;&#xC57D;&#xB9CC;&#xAE30;&#xAE4C;&#xC9C0; &#xACC4;&#xC57D;&#xC774; &#xC874;&#xC18D;&#xB418;&#xBBC0;&#xB85C;, &#xACC4;&#xC57D;&#xC758; &#xC885;&#xB8CC;&#xC2DC;&#xC810;&#xAE4C;&#xC9C0; &#xCD94;&#xAC00;&#xC801;&#xC778; &#xD68C;&#xACC4;&#xCC98;&#xB9AC; &#xD544;&#xC694;&#xC5C6;&#xC74C; </li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>&#xC885;&#xB8CC;&#xAC00;&#xB2A5;&#xC2DC;&#xC810; : &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; = &#xC2E4;&#xC81C; &#xC885;&#xB8CC;&#xC2DC;&#xC810; <ul>
+<li>&#xB2F9;&#xCD08; &#xCE21;&#xC815;&#xC2DC;&#xBD80;&#xD130; &#xC885;&#xB8CC;&#xAC00;&#xB2A5;&#xC2DC;&#xC810; &#xC774;&#xD6C4; &#xB9CC;&#xAE30;&#xC2DC;&#xC810;&#xAE4C;&#xC9C0;&#xC758; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC774; &#xC774;&#xD589;&#xD604;&#xAE08;&#xD750;&#xB984;&#xC5D0; &#xD3EC;&#xD568;&#xB418;&#xC5B4; &#xC788;&#xC9C0; &#xC54A;&#xC73C;&#xBBC0;&#xB85C; &#xACC4;&#xC57D;&#xC774; &#xC885;&#xB8CC;&#xB41C; &#xC2DC;&#xC810;&#xC5D0; &#xCD94;&#xAC00;&#xC801;&#xC778; &#xD68C;&#xACC4;&#xCC98;&#xB9AC; &#xBD88;&#xD544;&#xC694; </li>
+</ul>
+</li>
+</ul>
+<h2 id="&#xBBF8;&#xB798;-&#xD604;&#xAE08;&#xD750;&#xB984;&#xC758;-&#xD604;&#xC7AC;&#xAC00;&#xCE58;-&#xCD94;&#xC815;&#xCE58;-">&#xBBF8;&#xB798; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC758; &#xD604;&#xC7AC;&#xAC00;&#xCE58; &#xCD94;&#xC815;&#xCE58; </h2>
+<p>&#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC5D0; &#xB300;&#xD55C; &#xBBF8;&#xB798; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC758; &#xD604;&#xC7AC;&#xAC00;&#xCE58; &#xCD94;&#xC815;&#xCE58;&#xB97C; &#xCE21;&#xC815;&#xD560; &#xB54C;&#xB294; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC5D0; &#xB300;&#xD55C; &#xBBF8;&#xB798; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC758; &#xD604;&#xC7AC;&#xAC00;&#xCE58; &#xCD94;&#xC815;&#xCE58;&#xB97C; &#xCE21;&#xC815;&#xD560; &#xB54C;&#xC640; &#xC77C;&#xAD00;&#xB41C; &#xAC00;&#xC815;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xB294; &#xAC83;&#xC774; &#xC6D0;&#xCE59;&#xC784;. &#xB530;&#xB77C;&#xC11C; &#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC5D0; &#xB300;&#xD55C; &#xBBF8;&#xB798; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC740; &#xC774;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB294; &#xBAA8;&#xB4E0; &#xC815;&#xBCF4;&#xB97C; &#xC911;&#xB9BD;&#xC801;&#xC73C;&#xB85C; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xC2DC;&#xC7A5;&#xC815;&#xBCF4;&#xC640; &#xC77C;&#xAD00;&#xB418;&#xAC8C; &#xCD94;&#xC815;&#xD574;&#xC57C; &#xD558;&#xBA70;, &#xBCF4;&#xACE0;&#xC2DC;&#xC810;&#xC5D0;&#xC11C;&#xC758; &#xD604;&#xD589;&#xCD94;&#xC815;&#xCE58;&#xB85C; &#xBA85;&#xC2DC;&#xC801;&#xC73C;&#xB85C; &#xCD94;&#xC815;&#xD574;&#xC57C; &#xD568;. </p>
+<p>&#xB2E4;&#xB9CC;, &#xAE30;&#xC900;&#xC11C;&#xC5D0;&#xC11C; &#xC81C;&#xC2DC;&#xD55C; &#xC6D0;&#xCE59;&#xC5D0; &#xB530;&#xB77C; &#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC758; &#xBBF8;&#xB798; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC758; &#xD604;&#xC7AC;&#xAC00;&#xCE58;&#xB97C; &#xCD94;&#xC815;&#xD558;&#xAE30;&#xC5D0;&#xB294; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xD2B9;&#xC131;&#xACFC; &#xACC4;&#xC57D;&#xC0C1; &#xC635;&#xC158;&#xC744; &#xBC18;&#xC601;&#xD574;&#xC57C; &#xD55C;&#xB2E4;&#xB294; &#xC810;&#xC5D0;&#xC11C; &#xC2E4;&#xBB34;&#xC801;&#xC778; &#xC801;&#xC6A9;&#xBC29;&#xBC95;&#xC774; &#xD544;&#xC694;&#xD560; &#xAC83;&#xC73C;&#xB85C; &#xD310;&#xB2E8;&#xB428;. </p>
+<p>&#xD638;&#xC8FC;&#xACC4;&#xB9AC;&#xC0AC;&#xD68C;&#xC5D0;&#xC11C;&#xB294; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xD604;&#xAE08;&#xD750;&#xB984; &#xCD94;&#xC815; &#xC2DC;, &#xC7AC;&#xBCF4;&#xD5D8; &#xD2B9;&#xC57D;&#xC774; &#xC720;&#xD6A8;&#xD558;&#xACE0; &#xC694;&#xC728; &#xC7AC;&#xC0B0;&#xC815;&#xC73C;&#xB85C; &#xC778;&#xD558;&#xC5EC; &#xACC4;&#xC57D;&#xC758; &#xACBD;&#xACC4; &#xBC16;&#xC5D0; &#xC18D;&#xD558;&#xC9C0; &#xC54A;&#xB294;&#xB2E4;&#xBA74; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC608;&#xC0C1; &#xC2E0;&#xACC4;&#xC57D; &#xBB3C;&#xB7C9;&#xC744; &#xC7A0;&#xC7AC;&#xC801;&#xC73C;&#xB85C; &#xD3EC;&#xD568;&#xD558;&#xACE0;, &#xC7AC;&#xBCF4;&#xD5D8; &#xACC4;&#xC57D;&#xC0C1; &#xC635;&#xC158;&#xC758; &#xD6A8;&#xACFC;&#xB97C; &#xD3EC;&#xD568;&#xD560; &#xACBD;&#xC6B0;&#xC5D0;&#xB294; &#xACBD;&#xC81C;&#xC801; &#xC774;&#xC775;&#xC5D0; &#xB530;&#xB77C; &#xC6D0;&#xC218;&#xC0AC;/&#xCD9C;&#xC7AC;&#xC0AC; &#xAC01;&#xAC01; &#xD574;&#xB2F9; &#xC635;&#xC158;&#xC744; &#xD589;&#xC0AC;&#xD55C;&#xB2E4;&#xACE0; &#xAC00;&#xC815;&#xD558;&#xB294; &#xAC83;&#xC774; &#xC801;&#xC808;&#xD558;&#xBA70; &#xACBD;&#xC81C;&#xC801; &#xC774;&#xC775;&#xC740; &#xD3C9;&#xAC00;&#xC5D0; &#xC0AC;&#xC6A9;&#xB41C; &#xCD5C;&#xC801;&#xAC00;&#xC815;&#xC744; &#xAE30;&#xBC18;&#xC73C;&#xB85C; &#xACB0;&#xC815;&#xD574;&#xC57C; &#xD55C;&#xB2E4;&#xB294; &#xC758;&#xACAC;&#xC744; &#xC81C;&#xC2DC;&#xD568;. </p>
+<p>&#xC0DD;&#xBA85;&#xBCF4;&#xD5D8;&#xD611;&#xD68C;&#xC5D0;&#xC11C;&#xB294; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; Input Data&#xC640; &#xC7AC;&#xBCF4;&#xD5D8;&#xAC00;&#xC815;(&#xCD9C;&#xC7AC;&#xC728;, &#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xB8CC;, &#xCD9C;&#xC7AC;&#xC218;&#xC218;&#xB8CC;&#xC728; &#xB4F1;)&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC744; &#xCD94;&#xC815;&#xD558;&#xBA70;, &#xC77C;&#xBC18;&#xC801;&#xC73C;&#xB85C; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xACBD;&#xC6B0; &#xD22C;&#xC790;&#xC694;&#xC18C;&#xAC00; &#xC874;&#xC7AC;&#xD558;&#xC9C0; &#xC54A;&#xC744; &#xAC83;&#xC774;&#xBA70;, &#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xB300;&#xCD9C;&#xB3C4; &#xC874;&#xC7AC;&#xD558;&#xC9C0; &#xC54A;&#xC73C;&#xBBC0;&#xB85C; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC5D0; &#xBE44;&#xD574; &#xD544;&#xC694; &#xAC00;&#xC815;&#xC774; &#xB2E8;&#xC21C;&#xD560; &#xAC83;&#xC774;&#xBA70;, &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xAD6C;&#xC131;&#xB418;&#xACE0; &#xAC74; &#xBCC4;&#xB85C; &#xC0B0;&#xCD9C;&#xD558;&#xC5EC; &#xC801;&#xC6A9;&#xD574;&#xC57C; &#xD55C;&#xB2E4;&#xB294; &#xC758;&#xACAC;&#xC744; &#xC81C;&#xC2DC;&#xD568;. </p>
+<p><img src="../../.gitbook/assets/&#xD45C;7-4.png" alt="&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D; &#xD604;&#xAE08;&#xD750;&#xB984; &#xAD6C;&#xC131;&#xBC29;&#xC548;"></p>
+<p>&#xD55C;&#xD3B8;, &#xD55C;&#xAD6D;&#xBCF4;&#xD5D8;&#xACC4;&#xB9AC;&#xC0AC;&#xD68C;&#xB294; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC815;&#xC0B0;&#xB2E8;&#xC704;&#xBCF4;&#xB2E4; &#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC774; &#xC138;&#xBD84;&#xD654;&#xB418;&#xC5B4; &#xC788;&#xB294; &#xACBD;&#xC6B0; &#xD604;&#xAE08;&#xD750;&#xB984; &#xD3EC;&#xD568;&#xD56D;&#xBAA9;&#xC778; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC; &#xBC0F; &#xC190;&#xD574;&#xBD84;&#xB2F4;&#xAE08;&#xC744; &#xC5B4;&#xB5BB;&#xAC8C; &#xBC18;&#xC601;&#xD574;&#xC57C; &#xD558;&#xB294;&#xC9C0;&#xC5D0; &#xB300;&#xD574; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC740; &#xBC29;&#xC548;&#xC744; &#xC81C;&#xC2DC;&#xD568; </p>
+<p><div class="alert alert-undefined hints-alert"><div class="hints-icon"><i class="undefined"></i></div><div class="hints-container"><h4 id="&#xBC29;&#xC548;-1">[&#xBC29;&#xC548; 1]</h4>
+<ul>
+<li>&#xC7AC;&#xBCF4;&#xD5D8; &#xC815;&#xC0B0;&#xB2E8;&#xC704;(Treaty) &#xBCC4;&#xB85C; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC;&#xB97C; &#xC0B0;&#xCD9C;&#xD558;&#xACE0;, &#xB3D9;&#xC77C;&#xD558;&#xAC8C; &#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569; &#xBCC4;&#xB85C; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC;&#xB97C; &#xACC4;&#xC0B0;&#xD558;&#xC5EC; &#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569; &#xBCC4; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC;(&#xB610;&#xB294; &#xC7AC;&#xBCF4;&#xD5D8;&#xB8CC; - &#xC7AC;&#xBCF4;&#xD5D8;&#xAE08;)&#xC744; Driver&#xB85C; &#xC7AC;&#xBCF4;&#xD5D8; &#xC815;&#xC0B0;&#xB2E8;&#xC704; &#xBCC4; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC; &#xBC30;&#xBD84; <ul>
+<li>&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569; &#xBCC4; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC; &#xAE08;&#xC561; &#xBE44;&#xC728;&#xB85C; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC; &#xCD1D;&#xC561; &#xBC30;&#xBD84; </li>
+<li>&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569; &#xBCC4; &#xC74C;&#xC758; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC;&#xB294; &#xADF8;&#xB300;&#xB85C; &#xC0B4;&#xB824;&#xC11C; &#xACC4;&#xC0B0; </li>
+<li>&#xC815;&#xC0B0;&#xB2E8;&#xC704; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC;&#xAC00; 0&#xC778; &#xACBD;&#xC6B0; &#xC801;&#xC808;&#xD55C; &#xBD84;&#xB9AC;&#xB97C; &#xD1B5;&#xD574; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC;&#xAC00; &#xC591;(+)&#xC778; &#xBD80;&#xBD84;&#xC744; &#xC0B0;&#xCD9C; &#xD6C4;, &#xC74C;(-)&#xC778; &#xBD80;&#xBD84;&#xC5D0; &#xBC30;&#xBD84; </li>
+</ul>
+</li>
+</ul>
+<h4 id="&#xBC29;&#xC548;-2">[&#xBC29;&#xC548; 2]</h4>
+<ul>
+<li>&#xC7AC;&#xBCF4;&#xD5D8;&#xC0AC;&#xC758; &#xC9C1;&#xC804; 3&#xB144;&#xAC04; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC; &#xBC18;&#xC601; &#xD6C4; &#xD3C9;&#xADE0;&#xC21C;&#xC774;&#xC775;&#xB960;&#xC744; &#xAE30;&#xCD08;&#xB85C; &#xD3C9;&#xADE0;&#xC21C;&#xC774;&#xC775;&#xB960; &#xCDA9;&#xC871;&#xC744; &#xC704;&#xD55C; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC;&#xB97C; &#xC5ED;&#xC0B0;&#xD558;&#xC5EC; &#xBC18;&#xC601; <ul>
+<li>&#xC608;&#xC0C1;&#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC; : &#xAC1C;&#xBCC4; &#xACC4;&#xC57D;(&#xBAA8;&#xB378;&#xD3EC;&#xC778;&#xD2B8;) &#xBCC4;&#xB85C; &#xC0B0;&#xCD9C; </li>
+<li>&#xC2E4;&#xC81C;&#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC; : &#xD3C9;&#xADE0; &#xC21C;&#xC774;&#xC775;&#xB960;&#xC744; &#xC801;&#xC6A9;&#xD558;&#xC5EC; &#xC0B0;&#xCD9C;&#xB41C; &#xAE08;&#xC561; &#xAE30;&#xC900;&#xC73C;&#xB85C; &#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC5D0; &#xBC30;&#xBD84; </li>
+</ul>
+</li>
+</ul>
+<h4 id="&#xBC29;&#xC548;-3">[&#xBC29;&#xC548; 3]</h4>
+<ul>
+<li>&#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC5D0; &#xC801;&#xC6A9;&#xB41C; &#xC190;&#xD574;&#xC728; &#xAC00;&#xC815;&#xC744; &#xC77C;&#xAD00;&#xB418;&#xAC8C; &#xC801;&#xC6A9;&#xD558;&#xB418;, &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC870;&#xAC74;&#xC5D0; &#xB530;&#xB77C; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC;&#xC728;&#xC744; &#xD3C9;&#xAC00;&#xD558;&#xC5EC; &#xC0B0;&#xCD9C;&#xD568;. <ul>
+<li>&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC870;&#xAC74;&#xC5D0; &#xB530;&#xB77C; &#xD55C;&#xB3C4; &#xB4F1;&#xC774; &#xBC1C;&#xC0DD;&#xD558;&#xB294;&#xC9C0; &#xC5EC;&#xBD80;&#xC640; &#xADF8;&#xC5D0; &#xB530;&#xB978; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC758; &#xAC00;&#xC815;&#xC5D0; &#xBD80;&#xD569;&#xD558;&#xB294; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC;&#xC728;&#xC744; &#xC0B0;&#xCD9C;&#xD558;&#xC5EC; &#xD3C9;&#xAC00; </li>
+<li>&#xBCC4;&#xB3C4;&#xC758; &#xBC30;&#xBD84;&#xC5C6;&#xC774; &#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xBCC4;&#xB85C; &#xB3D9;&#xC77C; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC;&#xC728; &#xC801;&#xC6A9; </li>
+</ul>
+</li>
+</ul>
+</div></div></p>
+<p>&#xB610;&#xD55C; &#xC0DD;&#xBA85;&#xBCF4;&#xD5D8;&#xD611;&#xD68C;&#xC5D0;&#xC11C;&#xB294; &#xC77C;&#xBC18;&#xC801;&#xC73C;&#xB85C; &#xC7AC;&#xBCF4;&#xD5D8;&#xC758; &#xACBD;&#xC6B0; &#xD22C;&#xC790;&#xC694;&#xC18C;&#xAC00; &#xC874;&#xC7AC;&#xD558;&#xC9C0; &#xC54A;&#xC744; &#xAC83;&#xC774;&#xB77C; &#xD310;&#xB2E8;&#xD55C; &#xBC18;&#xBA74;,  &#xD55C;&#xAD6D;&#xBCF4;&#xD5D8;&#xACC4;&#xB9AC;&#xC0AC;&#xD68C;&#xC5D0;&#xC11C;&#xB294; &#xC7AC;&#xBCF4;&#xD5D8;&#xC0AC;&#xAC00; &#xBAA8;&#xB4E0; &#xC0C1;&#xD669;&#xC5D0;&#xC11C; &#xC7AC;&#xBCF4;&#xD5D8; &#xACC4;&#xC57D;&#xC790;&#xC5D0;&#xAC8C; &#xC9C0;&#xAE09;&#xD560; &#xCD5C;&#xC18C; &#xAE08;&#xC561;&#xC73C;&#xB85C; &#xD22C;&#xC790;&#xC694;&#xC18C;&#xB97C; &#xC815;&#xC758;&#xD568;. &#xB2E4;&#xB9CC;, &#xD22C;&#xC790;&#xC694;&#xC18C;&#xB294; &#xC815;&#xC758;&#xC5D0; &#xBD80;&#xD569;&#xD558;&#xB3C4;&#xB85D; &#xD2B9;&#xC57D;&#xC758; &#xB0B4;&#xC6A9;&#xC5D0; &#xB9DE;&#xAC8C; &#xD574;&#xC11D;&#xD558;&#xC5EC; &#xC0B0;&#xCD9C;&#xBC29;&#xBC95;&#xC744; &#xACB0;&#xC815;&#xD574;&#xC57C; &#xD558;&#xB098;, &#xC77C;&#xBC18;&#xC801;&#xC73C;&#xB85C; &#xC7AC;&#xBCF4;&#xD5D8;&#xB8CC; &#xAE08;&#xC561;&#xC5D0; &#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC;&#xC728;&#xC744; &#xBC18;&#xC601;&#xD55C; &#xAE08;&#xC561;&#xC744; &#xD22C;&#xC790;&#xC694;&#xC18C;&#xB85C; &#xC778;&#xC2DD;&#xD560; &#xAC83;&#xC744; &#xC81C;&#xC548;&#xD558;&#xBA70; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC740; &#xC758;&#xACAC;&#xC744; &#xC81C;&#xC2DC;&#xD568;.  </p>
+<p><div class="alert alert-undefined hints-alert"><div class="hints-icon"><i class="undefined"></i></div><div class="hints-container"><ul>
+<li>&#xC784;&#xC758; &#xC7AC;&#xBCF4;&#xD5D8;&#xC740; &#xC815;&#xC0B0;/&#xC774;&#xC775;&#xC5D0; &#xB530;&#xB978; &#xD22C;&#xC790;&#xC694;&#xC18C; &#xBC1C;&#xC0DD;&#xC774; &#xC0AC;&#xC2E4;&#xC0C1; &#xC5C6;&#xC73C;&#xBBC0;&#xB85C; &#xD2B9;&#xC57D; &#xC7AC;&#xBCF4;&#xD5D8;&#xC5D0; &#xD55C;&#xD574; &#xC801;&#xC6A9; </li>
+<li>&#xC774;&#xC775;&#xC218;&#xC218;&#xB8CC;&#xB294; &#xC9C0;&#xAE09;&#xB41C; &#xC7AC;&#xBCF4;&#xD5D8;&#xACFC; &#xBC18;&#xBE44;&#xB840; &#xAD00;&#xACC4;&#xAC00; &#xC874;&#xC7AC;&#xD558;&#xBBC0;&#xB85C;, &#xC190;&#xD574;&#xC728;&#xC774; 0&#xC778; &#xACBD;&#xC6B0;&#xC758; &#xC774;&#xC775;&#xC815;&#xC0B0;&#xC218;&#xC218;&#xB8CC;&#xB97C; &#xD22C;&#xC790;&#xC694;&#xC18C;&#xB85C; &#xC815;&#xC758; </li>
+<li>&#xBD84;&#xAE30;&#xBCC4; &#xBCF4;&#xD5D8;&#xC218;&#xC775; &#xBC0F; &#xBCF4;&#xD5D8;&#xC11C;&#xBE44;&#xC2A4;&#xBE44;&#xC6A9;&#xC5D0;&#xC11C; &#xD22C;&#xC790;&#xC694;&#xC18C;&#xB97C; &#xCC28;&#xAC10;&#xD558;&#xC5EC; &#xD45C;&#xC2DC;&#xD558;&#xB418;, &#xCC28;&#xAC10;&#xD560; &#xD22C;&#xC790;&#xC694;&#xC18C;&#xB294; &#xBD84;&#xAE30;&#xBCC4; &#xBCF4;&#xD5D8;&#xB8CC; &#xB4F1; Driver&#xC5D0; &#xB530;&#xB77C; &#xBC30;&#xBD84;&#xD558;&#xAC70;&#xB098; &#xBD84;&#xAE30;&#xBCC4; &#xB204;&#xC801; &#xD22C;&#xC790;&#xC694;&#xC18C;&#xB97C; &#xC9C1;&#xC811; &#xC0B0;&#xCD9C;&#xD558;&#xC5EC; &#xBC30;&#xBD84;&#xD568;</li>
+</ul>
+</div></div></p>
+<p>&#xD55C;&#xD3B8;, &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC5D0; &#xC801;&#xC6A9;&#xD558;&#xB294; &#xD560;&#xC778;&#xC728;&#xC740; &#xC6D0;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC5D0;&#xC11C; &#xC801;&#xC6A9;&#xD558;&#xB294; &#xD560;&#xC778;&#xC728; &#xAC00;&#xC815;&#xACFC; &#xC77C;&#xAD00;&#xB418;&#xAC8C; &#xC801;&#xC6A9;&#xD558;&#xB294; &#xAC83;&#xC774; &#xC6D0;&#xCE59;&#xC784;. &#xC774;&#xC640; &#xAD00;&#xB828;&#xD558;&#xC5EC; &#xAD6D;&#xC81C;&#xACC4;&#xB9AC;&#xC0AC;&#xD68C;&#xC5D0;&#xC11C;&#xB294; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D; &#xAC00;&#xC815;&#xACFC;&#xC758; &#xC77C;&#xAD00;&#xC131;&#xC5D0; &#xB300;&#xD558;&#xC5EC; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xACFC; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D; &#xAC04;&#xC758; &#xC720;&#xC0AC;&#xD55C; &#xD2B9;&#xC131;&#xC744; &#xACF5;&#xC720;&#xD558;&#xB294; &#xC815;&#xB3C4;&#xB97C; &#xC694;&#xAD6C;&#xD560; &#xBFD0; &#xB3D9;&#xC77C;&#xD55C; &#xAC00;&#xC815;&#xC758; &#xC0AC;&#xC6A9;&#xC744; &#xBC18;&#xB4DC;&#xC2DC; &#xC694;&#xAD6C;&#xD558;&#xC9C0; &#xC54A;&#xC73C;&#xBA70;, &#xACF5;&#xB3D9;&#xC778;&#xC218;&#xACC4;&#xC57D;&#xC5D0; &#xB300;&#xD574;&#xC11C;&#xB294; &#xC0AC;&#xC804;&#xC5D0; &#xC815;&#xD574;&#xC9C4; &#xBE44;&#xC728;&#xB300;&#xB85C; &#xCD9C;&#xC7AC;&#xD558;&#xBBC0;&#xB85C; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D; &#xBC0F; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC774; &#xB3D9;&#xC77C;&#xD55C; &#xC720;&#xB3D9;&#xC131; &#xD504;&#xB9AC;&#xBBF8;&#xC5C4;&#xC744; &#xAC00;&#xC9C0;&#xB098; &#xC0AC;&#xB9DD;&#xC704;&#xD5D8; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC5D0; &#xB300;&#xD574;&#xC11C;&#xB294;  &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC774; &#xB354; &#xC720;&#xB3D9;&#xC801;&#xC774;&#xB77C;&#xB294; &#xC758;&#xACAC;&#xC744; &#xC81C;&#xC2DC;&#xD568;. </p>
+<h2 id="&#xC7AC;&#xBCF4;&#xD5D8;&#xC790;-&#xBD88;&#xC774;&#xD589;&#xC2E0;&#xC6A9;&#xC704;&#xD5D8;-">&#xC7AC;&#xBCF4;&#xD5D8;&#xC790; &#xBD88;&#xC774;&#xD589;(&#xC2E0;&#xC6A9;)&#xC704;&#xD5D8; </h2>
+<p>&#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC5D0; &#xB300;&#xD55C; &#xBBF8;&#xB798; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC758; &#xD604;&#xC7AC;&#xAC00;&#xCE58; &#xCD94;&#xC815;&#xCE58;&#xC5D0;&#xB294; &#xC7AC;&#xBCF4;&#xD5D8;&#xC790;&#xC758; &#xBD80;&#xB3C4;, &#xB2F4;&#xBCF4;&#xB85C; &#xC778;&#xD55C; &#xD6A8;&#xACFC; &#xBC0F; &#xBD84;&#xC7C1;&#xC73C;&#xB85C; &#xC778;&#xD55C; &#xC190;&#xC2E4;&#xC744; &#xD3EC;&#xD568;&#xD558;&#xC5EC; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xBD88;&#xC774;&#xD589;&#xACFC; &#xAD00;&#xB828;&#xB41C; &#xBAA8;&#xB4E0; &#xC704;&#xD5D8;&#xC744; &#xD3EC;&#xD568;&#xD560; &#xAC83;&#xC744; &#xC6D0;&#xCE59;&#xC73C;&#xB85C; &#xD568;. &#xC774; &#xB54C; &#xC7AC;&#xBCF4;&#xD5D8;&#xC790;&#xC758; &#xD604; &#xC7AC;&#xBB34;&#xC0C1;&#xD0DC;, &#xC2E0;&#xC6A9;&#xB4F1;&#xAE09; &#xBC0F; &#xC2DC;&#xAC04;&#xC5D0; &#xB530;&#xB978; &#xBCC0;&#xACBD;&#xAC00;&#xB2A5;&#xC131;&#xC744; &#xBC18;&#xC601;&#xD574;&#xC57C; &#xD568;. </p>
+<p>&#xAE30;&#xC900;&#xC11C;&#xC5D0;&#xC11C;&#xB294; &#xAE30;&#xB300;&#xC2E0;&#xC6A9;&#xC190;&#xC2E4;&#xC744; &#xCD94;&#xC815;&#xD558;&#xC5EC; &#xBBF8;&#xB798; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC758; &#xD604;&#xC7AC;&#xAC00;&#xCE58; &#xCD94;&#xC815;&#xCE58;&#xC5D0; &#xBC18;&#xC601;&#xD574;&#xC57C; &#xD55C;&#xB2E4;&#xB294; &#xC6D0;&#xCE59;&#xB9CC;&#xC744; &#xC81C;&#xC2DC;&#xD560; &#xBFD0; &#xAD6C;&#xCCB4;&#xC801;&#xC778; &#xC801;&#xC6A9;&#xBC29;&#xC548;&#xC5D0; &#xB300;&#xD574;&#xC11C;&#xB294; &#xC5B8;&#xAE09;&#xD558;&#xACE0; &#xC788;&#xC9C0; &#xC54A;&#xC74C;. &#xC774;&#xC5D0; &#xB300;&#xD558;&#xC5EC; &#xD638;&#xC8FC;&#xACC4;&#xB9AC;&#xC0AC;&#xD68C;&#xC5D0;&#xC11C;&#xB294; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D; &#xD3C9;&#xAC00;&#xC2DC; &#xC2DC;&#xC7A5;&#xC5D0;&#xC11C; &#xAC70;&#xB798;&#xB418;&#xB294; &#xB3D9;&#xC77C;&#xD55C; &#xC2E0;&#xC6A9;&#xB4F1;&#xAE09;&#xC758; &#xCC44;&#xAD8C; &#xD560;&#xC778;&#xC728;&#xC744; &#xC774;&#xC6A9;&#xD558;&#xACE0; &#xBD80;&#xB3C4;&#xC704;&#xD5D8;&#xC744; &#xBC18;&#xC601;&#xD558;&#xAE30; &#xC704;&#xD574; &#xD560;&#xC778;&#xC728;&#xC5D0; &#xC2A4;&#xD504;&#xB808;&#xB4DC;&#xB97C; &#xC801;&#xC6A9;&#xD558;&#xB294; &#xBC29;&#xBC95;&#xACFC; &#xBD80;&#xB3C4;&#xC728;&#xACFC; &#xC190;&#xC2E4;&#xC728;&#xC744; &#xC774;&#xC6A9;&#xD55C; &#xC608;&#xC0C1;&#xC190;&#xC2E4;&#xC744; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC5D0;&#xC11C; &#xC870;&#xC815;&#xD558;&#xB294; &#xBC29;&#xBC95;&#xC744; &#xC81C;&#xC548;&#xD558;&#xC600;&#xC73C;&#xB098; &#xAD6C;&#xCCB4;&#xC801;&#xC778; &#xBC29;&#xBC95;&#xC5D0; &#xB300;&#xD574;&#xC11C;&#xB294; &#xC5B8;&#xAE09;&#xD558;&#xC9C0; &#xC54A;&#xC74C;. </p>
+<p>&#x65B0;&#xC9C0;&#xAE09;&#xC5EC;&#xB825;&#xC81C;&#xB3C4;&#xC5D0;&#xC11C;&#xB294; &#xC7AC;&#xBCF4;&#xD5D8; &#xACC4;&#xC57D;&#xC758; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC5D0; &#xC190;&#xC2E4;&#xC870;&#xC815; &#xBC18;&#xC601;&#xC744; &#xC704;&#xD558;&#xC5EC; &#xAD6C;&#xCCB4;&#xC801;&#xC778; &#xC190;&#xC2E4;&#xC870;&#xC815; &#xACC4;&#xC0B0;&#xC2DD;&#xC744; &#xC81C;&#xC2DC;&#xD568;. &#x65B0;&#xC9C0;&#xAE09;&#xC5EC;&#xB825;&#xC81C;&#xB3C4; &#xAE30;&#xC900;&#xC0C1; &#xC190;&#xC2E4;&#xC870;&#xC815;&#xC740; &#xC7AC;&#xBCF4;&#xD5D8; &#xAC70;&#xB798;&#xC0C1;&#xB300;&#xBC29;&#xC758; &#xC7A5;&#xB798; &#xBD80;&#xB3C4;&#xD655;&#xB960;, &#xBD80;&#xB3C4;&#xC5D0; &#xB530;&#xB978; &#xC190;&#xC2E4; &#xBC0F; &#xC190;&#xC2E4; &#xD68C;&#xC218;&#xAE08;&#xC561;&#xC744; &#xAC10;&#xC548;&#xD558;&#xACE0; &#xD654;&#xD3D0;&#xC758; &#xC2DC;&#xAC04;&#xAC00;&#xCE58;&#xB97C; &#xBC18;&#xC601;&#xD558;&#xC5EC; &#xCE21;&#xC815;&#xD558;&#xBBC0;&#xB85C; &#xC774;&#xB97C; &#xC900;&#xC6A9;&#xD558;&#xC5EC; IFRS 17 &#xAE30;&#xC900;&#xC758; &#xAE30;&#xB300;&#xC2E0;&#xC6A9;&#xC190;&#xC2E4;&#xC744; &#xCE21;&#xC815;&#xD574;&#xC57C; &#xD568;. &#xB530;&#xB77C;&#xC11C; &#xB2E4;&#xC74C;&#xC758; &#xC2DD;&#xACFC; &#xAC19;&#xC774; &#xC7AC;&#xBCF4;&#xD5D8;&#xC790;&#xC758; &#xC2E0;&#xC6A9;&#xB4F1;&#xAE09; &#xBC0F; &#xBD80;&#xB3C4;&#xD655;&#xB960; &#xB4F1;&#xC744; &#xACE0;&#xB824;&#xD558;&#xC5EC; &#xD604;&#xAE08;&#xD750;&#xB984; &#xBC1C;&#xC0DD;&#xC2DC;&#xAE30; &#xBCC4;&#xB85C; PD/LGD &#xBC0F; &#xD654;&#xD3D0;&#xC758; &#xC2DC;&#xAC04;&#xAC00;&#xCE58;&#xB97C; &#xACE0;&#xB824;&#xD558;&#xC5EC; &#xAC01; &#xC2DC;&#xC810;&#xC758; &#xAE30;&#xB300;&#xC2E0;&#xC6A9;&#xC190;&#xC2E4;&#xC561;&#xC744; &#xCD94;&#xC815;&#xD558;&#xC5EC; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC5D0; &#xBC18;&#xC601;&#xD574;&#xC57C; &#xD568;. </p>
+<p><img src="../../.gitbook/assets/&#xC190;&#xC2E4;&#xC870;&#xC815;.PNG" alt="&#xC190;&#xC2E4;&#xC870;&#xC815; "></p>
+<ul>
+<li>&#xC7AC;&#xBCF4;&#xD5D8; &#xAC70;&#xB798;&#xC0C1;&#xB300;&#xBC29;&#xC758; &#xC7A5;&#xB798;&#xBD80;&#xB3C4;&#xC5D0; &#xB530;&#xB978; &#xC190;&#xC2E4;&#xAE08;&#xC561;&#xC744; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC5D0; &#xBC18;&#xC601; </li>
+<li>&#xC7AC;&#xBCF4;&#xD5D8; &#xAC70;&#xB798;&#xC0C1;&#xB300;&#xBC29;&#xC758; &#xBD80;&#xB3C4;&#xC2DC; &#xD68C;&#xC218; &#xAC00;&#xB2A5;&#xAE08;&#xC561;&#xC744; &#xCD94;&#xC815;&#xD558;&#xC5EC; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC5D0; &#xBC18;&#xC601;&#xD560; &#xB54C; &#xD68C;&#xC218;&#xC728;&#xC744; &#xBCF4;&#xD5D8;&#xD68C;&#xC0AC;&#xC758; &#xD569;&#xB9AC;&#xC801;&#xC778; &#xAC00;&#xC815;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xCD94;&#xC815;&#xD558;&#xB418; &#xADF8; &#xAC12;&#xC740; 50% &#xC774;&#xD558;&#xB85C; &#xC81C;&#xD55C;&#xD568; </li>
+<li>&#xC7AC;&#xBCF4;&#xD5D8; &#xAC70;&#xB798;&#xC0C1;&#xB300;&#xBC29;&#xC758; &#xBD80;&#xB3C4;&#xD655;&#xB960;&#xC740; &#xC801;&#xACA9; &#xC678;&#xBD80;&#xC2E0;&#xC6A9;&#xD3C9;&#xAC00;&#xAE30;&#xAD00;&#xC758; &#xC2E0;&#xC6A9;&#xB4F1;&#xAE09;&#xBCC4; &#xBD80;&#xB3C4;&#xD655;&#xB960;&#xC744; &#xC801;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xC74C;</li>
+</ul>
+<blockquote>
+<p><strong>[&#xCC38;&#xACE0;] &#x65B0;&#xC9C0;&#xAE09;&#xC5EC;&#xB825;&#xC81C;&#xB3C4;(K-ICS 4.0)</strong></p>
+<p><em><strong>K--ICS &#xC2E0;&#xC6A9;&#xB4F1;&#xAE09; &#xC801;&#xC6A9;&#xAE30;&#xC900;</strong></em> </p>
+<p>(1) K-ICS &#xC2E0;&#xC6A9;&#xB4F1;&#xAE09;&#xC740; &#xAD6D;&#xB0B4;&#xC678; &#xC801;&#xACA9;&#xC678;&#xBD80;&#xC2E0;&#xC6A9;&#xD3C9;&#xAC00;&#xAE30;&#xAD00;(&#xC774;&#xD558; &apos;&#xC2E0;&#xC6A9;&#xD3C9;&#xAC00;&#xAE30;&#xAD00;&apos;&#xC774;&#xB77C; &#xD55C;&#xB2E4;)&#xC758; &#xC2E0;&#xC6A9;&#xB4F1;&#xAE09;&#xC744; &#xC9C1;&#xC811; &#xB9E4;&#xD551;&#xD558;&#xAC70;&#xB098; &#xC2E0;&#xC6A9;&#xD3C9;&#xAC00;&#xAE30;&#xAD00;&#xC758; &#xACF5;&#xC2DC; &#xB4F1;&#xAE09;&#xBD80;&#xB3C4;&#xC728;&#xC744; &#xAE30;&#xC900;&#xC73C;&#xB85C; &#xC2E0;&#xC6A9;&#xD3C9;&#xAC00;&#xAE30;&#xAD00;&#xC758; &#xC2E0;&#xC6A9;&#xB4F1;&#xAE09;&#xC744; &#xB9E4;&#xD551;&#xD558;&#xC5EC; &#xC0B0;&#xCD9C;&#xD55C;&#xB2E4;. </p>
+<p>&#x2460; &#xAD6D;&#xB0B4; &#xC801;&#xACA9;&#xC678;&#xBD80;&#xC2E0;&#xC6A9;&#xD3C9;&#xAC00;&#xAE30;&#xAD00;&#xC774;&#xB780;, &#x300C;&#xC740;&#xD589;&#xAC10;&#xB3C5;&#xC5C5;&#xBB34;&#xC2DC;&#xD589;&#xC138;&#xCE59;&#x300D; [&#xBCC4;&#xD45C;3] &#xC81C; 2&#xC7A5; &#xC81C;2&#xC808;&#xC5D0;&#xC11C; &#xC815;&#xD558;&#xB294; &#xAE30;&#xC900;&#xC5D0; &#xB530;&#xB77C; &#xAC10;&#xB3C5;&#xC6D0;&#xC7A5;&#xC774; &#xC9C0;&#xC815;&#xD558;&#xB294; &#xC2E0;&#xC6A9;&#xD3C9;&#xAC00;&#xAE30;&#xAD00;&#xC744; &#xB9D0;&#xD55C;&#xB2E4;.</p>
+<p>&#x2461; &#xAD6D;&#xC678; &#xC801;&#xACA9;&#xC678;&#xBD80;&#xC2E0;&#xC6A9;&#xD3C9;&#xAC00;&#xAE30;&#xAD00;&#xC774;&#xB780;, &#xB2E4;&#xC74C;&#xC5D0; &#xD574;&#xB2F9;&#xD558;&#xB294; &#xAE30;&#xAD00;&#xC744; &#xB9D0;&#xD55C;&#xB2E4;. </p>
+<p>    &#x3131;. &#xAD6D;&#xC81C; 3&#xB300; &#xC2E0;&#xC6A9;&#xD3C9;&#xAC00;&#xAE30;&#xAD00;(S\&amp;P, Moody&#x2019;s, Fitch)</p>
+<p>    &#x3134;. &#xBC14;&#xC824;&#xC740;&#xD589;&#xAC10;&#xB3C5;&#xC704;&#xC6D0;&#xD68C; &#xD68C;&#xC6D0;&#xAD6D; &#xAE08;&#xC735;&#xAC10;&#xB3C5;&#xB2F9;&#xAD6D;&#xC774; &#xC9C0;&#xC815;&#xD55C; &#xC801;&#xACA9;&#xC678;&#xBD80;&#xC2E0;&#xC6A9;&#xD3C9;&#xAC00;&#xAE30;&#xAD00;(ECAI)</p>
+</blockquote>
+<p>&#xB9CC;&#xC77C;, &#xC7AC;&#xBCF4;&#xD5D8; &#xAC70;&#xB798;&#xC0C1;&#xB300;&#xBC29;&#xC774; &#xCD5C;&#xADFC; 3&#xB144;&#xAC04; &#xD574;&#xC678; &#xC2E0;&#xC6A9;&#xD3C9;&#xAC00;&#xAE30;&#xAD00;&#xC73C;&#xB85C;&#xBD80;&#xD130; A&#xB4F1;&#xAE09;(S\&amp;P&#xAE30;&#xC900;) &#xC774;&#xC0C1; &#xB610;&#xB294; &#xC774;&#xC5D0; &#xC900;&#xD558;&#xB294; &#xC2E0;&#xC6A9;&#xB4F1;&#xAE09; &#xC774;&#xC0C1;&#xC744; &#xBC1B;&#xB294; &#xACBD;&#xC6B0; &#xB2E4;&#xC74C;&#xC5D0;&#xC11C; &#xC815;&#xD55C; &#xAC04;&#xD3B8;&#xBC95;&#xC73C;&#xB85C; &#xAE30;&#xB300;&#xC2E0;&#xC6A9;&#xC190;&#xC2E4;&#xC744; &#xBC18;&#xC601;&#xD560; &#xC218; &#xC788;&#xC74C;.</p>
+<p><img src="../../.gitbook/assets/&#xC190;&#xC2E4;&#xC870;&#xC815; &#xAC04;&#xD3B8;&#xBC95;.PNG" alt=""></p>
+<p>&#xB2E4;&#xB9CC;, &#x65B0;&#xC9C0;&#xAE09;&#xC5EC;&#xB825;&#xC81C;&#xB3C4;&#xC5D0;&#xC11C; &#xC81C;&#xC2DC;&#xD55C; &#xC6D0;&#xCE59;&#xC5D0; &#xB530;&#xB77C; &#xD560;&#xC778;&#xD6A8;&#xACFC;&#xB97C; &#xBC18;&#xC601;&#xD558;&#xAE30; &#xC704;&#xD574;&#xC11C;&#xB294; &#xB9E4; &#xBD80;&#xB3C4;&#xC2DC;&#xC810; &#xAE08;&#xC561;&#xC0B0;&#xCD9C;&#xC2DC; &#xAC01;&#xAC01;&#xC758; Ci x LGD &#xAC12; &#xBCC4;&#xB85C; &#xD604;&#xC7AC;&#xAC00;&#xCE58; &#xC0B0;&#xCD9C; &#xD6C4; &#xD569;&#xC0B0;&#xD558;&#xC5EC; &#xBD80;&#xB3C4;&#xC2DC; &#xC190;&#xC2E4;&#xC561;&#xC744; &#xC0B0;&#xCD9C;&#xD558;&#xACE0;, &#xBD80;&#xB3C4;&#xC2DC;&#xC190;&#xC2E4;&#xC561;&#xC5D0; &#xC2DC;&#xC810;&#xBCC4; &#xBD80;&#xB3C4;&#xC728;&#xC744; &#xACF1;&#xD558;&#xC5EC; &#xC190;&#xC2E4;&#xC870;&#xC815;&#xAE08;&#xC561;&#xC744; &#xC0B0;&#xCD9C;&#xD558;&#xACE0; &#xB9E4;&#xAE30; &#xC190;&#xC2E4;&#xC870;&#xC815;&#xAE08;&#xC561;&#xC744; &#xD569;&#xC0B0;&#xD574;&#xC57C; &#xC190;&#xC2E4;&#xC870;&#xC815;&#xAE08;&#xC561;&#xC744; &#xC0B0;&#xCD9C;&#xD560; &#xC218; &#xC788;&#xC74C;. &#xD574;&#xB2F9; &#xBC29;&#xC2DD;&#xC740; &#xC2DC;&#xC810;&#xBCC4; &#xD560;&#xC778;&#xD6A8;&#xACFC;&#xB97C; &#xBC18;&#xC601;&#xD558;&#xAE30; &#xC5B4;&#xB835;&#xB2E4;&#xB294; &#xB2E8;&#xC810;&#xC774; &#xC788;&#xC73C;&#xBBC0;&#xB85C; &#xAC01; &#xC2DC;&#xC810;&#xBCC4; &#xC190;&#xC2E4;&#xC870;&#xC815;&#xC561;&#xC744; &#xC0B0;&#xCD9C;&#xD55C; &#xD6C4; &#xD560;&#xC778;&#xC694;&#xC18C;&#xB97C; &#xBC18;&#xC601;&#xD558;&#xC5EC; &#xC190;&#xC2E4;&#xC870;&#xC815; &#xAE30;&#xB300;&#xD604;&#xAE08;&#xD750;&#xB984;&#xC758; &#xD604;&#xC7AC;&#xAC00;&#xCE58;&#xB97C; &#xC0B0;&#xCD9C;&#xD558;&#xB294; &#xBC29;&#xC2DD;&#xC744; &#xC801;&#xC6A9;&#xD558;&#xB294; &#xAC83;&#xC774; &#xC801;&#xC808;&#xD568;.</p>
+<p><img src="../../.gitbook/assets/&#xADF8;&#xB9BC;7-11.png" alt="&#xD3C9;&#xAC00;&#xC2DC;&#xC810; &#xAE30;&#xC900; &#xC2E0;&#xC6A9;&#xC190;&#xC2E4;&#xC870;&#xC815;"></p>
+<p><img src="../../.gitbook/assets/&#xADF8;&#xB9BC;7-12.png" alt="&#xD604;&#xAE08;&#xD750;&#xB984; &#xC2DC;&#xC810;&#xAE30;&#xC900; &#xC2E0;&#xC6A9;&#xC190;&#xC2E4;&#xC870;&#xC815;"></p>
+<h2 id="&#xBE44;&#xAE08;&#xC735;&#xC704;&#xD5D8;&#xC5D0;-&#xB300;&#xD55C;-&#xC704;&#xD5D8;&#xC870;&#xC815;">&#xBE44;&#xAE08;&#xC735;&#xC704;&#xD5D8;&#xC5D0; &#xB300;&#xD55C; &#xC704;&#xD5D8;&#xC870;&#xC815;</h2>
+<p>&#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC740; &#xBB38;&#xB2E8; 37 &#xB300;&#xC2E0; &#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC758; &#xBCF4;&#xC720;&#xC790;&#xAC00; &#xD574;&#xB2F9; &#xACC4;&#xC57D;&#xC758; &#xBC1C;&#xD589;&#xC790;&#xC5D0;&#xAC8C; &#xC774;&#xC804;&#xD558;&#xB294; &#xC704;&#xD5D8;&#xC744; &#xBC18;&#xC601;&#xD558;&#xB3C4;&#xB85D; &#xC0B0;&#xC815;&#xD558;&#xB294; &#xAC83;&#xC744; &#xC6D0;&#xCE59;&#xC73C;&#xB85C; &#xD558;&#xB098;, &#xAE30;&#xC900;&#xC11C;&#xC5D0;&#xC11C;&#xB294; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC5D0; &#xB300;&#xD55C; &#xC704;&#xD5D8;&#xC870;&#xC815; &#xC0B0;&#xCD9C;&#xBC29;&#xBC95;&#xB860;&#xC744; &#xADDC;&#xC815;&#xD558;&#xC9C0; &#xC54A;&#xC558;&#xC73C;&#xBA70;, &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D; &#xC5ED;&#xC2DC; &#xAD6C;&#xCCB4;&#xC801;&#xC778; &#xC0B0;&#xCD9C;&#xBC29;&#xBC95;&#xB860;&#xC744; &#xADDC;&#xC815;&#xD558;&#xC9C0; &#xC54A;&#xC74C;. &#xB2E4;&#xB9CC;, &#xC815;&#xC758;&#xC5D0; &#xB530;&#xB974;&#xBA74; &#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC740; &#xC774;&#xC804; &#xB300;&#xC0C1;&#xC774; &#xD544;&#xC694;&#xD558;&#xBBC0;&#xB85C; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xACFC; &#xBCC4;&#xB3C4;&#xB85C; &#xC0B0;&#xCD9C;&#xB420; &#xC218; &#xC5C6;&#xC74C;. </p>
+<p>&#xC774;&#xC5D0; &#xB300;&#xD558;&#xC5EC; &#xD638;&#xC8FC;&#xACC4;&#xB9AC;&#xC0AC;&#xD68C;&#xC5D0;&#xC11C;&#xB294; &#xAC1C;&#xB150;&#xC801;&#xC73C;&#xB85C; &#xC7AC;&#xBCF4;&#xD5D8;&#xC758; &#xBCF4;&#xC720;&#xC5EC;&#xBD80;&#xC5D0; &#xB530;&#xB978; &#xC704;&#xD5D8; &#xD3EC;&#xC9C0;&#xC158;&#xC758; &#xCC28;&#xC774;&#xB85C; &#xACB0;&#xC815;&#xB418;&#xBA70;, &#xC2E4;&#xBB34;&#xC801;&#xC73C;&#xB85C; &#xCD9C;&#xC7AC;&#xB97C; &#xB9CE;&#xC774; &#xD560; &#xACBD;&#xC6B0;, &#xD68C;&#xC0AC;&#xC758; &#xC6D0;&#xC218; &#xC704;&#xD5D8;&#xC131;&#xD5A5;&#xC744; &#xD3C9;&#xAC00;&#xD558;&#xAE30; &#xACE4;&#xB780;&#xD560; &#xC218; &#xC788;&#xC73C;&#xBBC0;&#xB85C; &#xBCF4;&#xC720;&#xAE30;&#xC900;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC744; &#xBA3C;&#xC800; &#xD3C9;&#xAC00;&#xD558;&#xACE0; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC744; &#xBC18;&#xC601;&#xD558;&#xC5EC; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC744; &#xC5ED;&#xC73C;&#xB85C; &#xC0B0;&#xCD9C;&#xAC00;&#xB2A5;&#xD558;&#xB2E4;&#xB294; &#xC758;&#xACAC;&#xC744; &#xC81C;&#xC2DC;&#xD568;. </p>
+<ul>
+<li>&#xAC1C;&#xB150;&#xC801;&#xC73C;&#xB85C; &#xBCF4;&#xC720; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC740; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC5D0;&#xC11C; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC744; &#xCC28;&#xAC10;&#xD558;&#xC5EC; &#xACB0;&#xC815;&#xB418;&#xBBC0;&#xB85C;, &#xD68C;&#xC0AC;&#xC758; &#xBCF4;&#xC720; &#xC704;&#xD5D8;&#xC131;&#xD5A5;&#xC744; &#xAE30;&#xBC18;&#xC73C;&#xB85C; &#xC0C1;&#xAE30; &#xC0B0;&#xC2DD;&#xC774; &#xC131;&#xB9BD;&#xD558;&#xC9C0; &#xC54A;&#xC744; &#xACBD;&#xC6B0; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC774; &#xC774;&#xC804;&#xB41C; &#xC704;&#xD5D8;&#xC744; &#xC801;&#xC808;&#xD558;&#xAC8C; &#xBC18;&#xC601;&#xD558;&#xC9C0; &#xBABB;&#xD560; &#xC218; &#xC788;&#xC74C; </li>
+<li>&#xB2E4;&#xB9CC;, &#xCE21;&#xC815;&#xAE30;&#xC900;&#xC774; &#xC0C1;&#xC774;&#xD560; &#xACBD;&#xC6B0; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D; &#xD3EC;&#xC9C0;&#xC158;&#xACFC; &#xBCF4;&#xC720;&#xAE30;&#xC900; &#xD45C;&#xC9C0;&#xC158;&#xC758; &#xCC28;&#xC774;&#xB85C; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC744; &#xACB0;&#xC815;&#xD560; &#xC218;&#xC5C6;&#xC74C; </li>
+</ul>
+<p><img src="../../.gitbook/assets/&#xADF8;&#xB9BC;7-13.png" alt="&#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569; &#xC704;&#xD5D8;&#xC870;&#xC815;"></p>
+<p>&#xD55C;&#xD3B8;, &#xD55C;&#xAD6D;&#xACC4;&#xB9AC;&#xC0AC;&#xD68C;&#xC5D0;&#xC11C;&#xB294; &#xCD9C;&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC9D1;&#xD569;&#xC758; &#xD604;&#xAE08;&#xD750;&#xB984; &#xBCC0;&#xB3D9;&#xC131;&#xB9CC;&#xC73C;&#xB85C; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC744; &#xC0B0;&#xCD9C;&#xD558;&#xB294; &#xAC83;&#xC774; &#xC6D0;&#xCE59;&#xC774;&#xB098; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC740; &#xC2E4;&#xBB34;&#xC801;&#xC6A9;&#xBC29;&#xC548;&#xC744; &#xC81C;&#xC2DC;&#xD568;. </p>
+<p><div class="alert alert-undefined hints-alert"><div class="hints-icon"><i class="undefined"></i></div><div class="hints-container"><p><strong>[&#xBC29;&#xC548; 1]</strong></p>
+<ul>
+<li>&#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC704;&#xD5D8;&#xC5D0; &#xADFC;&#xAC70;&#xD558;&#xC5EC; &#xCD9C;&#xC7AC; &#xBC0F; &#xBCF4;&#xC0C1;&#xC774; &#xC774;&#xB8E8;&#xC5B4;&#xC9C0;&#xBBC0;&#xB85C; &#xB3D9;&#xC77C;&#xD55C; &#xAC00;&#xC815;&#xBC29;&#xBC95;&#xB860;&#xC744; &#xC801;&#xC6A9;&#xD558;&#xC5EC; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xB9CC;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC744; &#xC0B0;&#xCD9C; <ul>
+<li>&#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC5D0; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xACFC; &#xB3D9;&#xC77C;&#xD55C; &#xC704;&#xD5D8;&#xC870;&#xC815; &#xC0B0;&#xCD9C;&#xBC29;&#xBC95; &#xC801;&#xC6A9;</li>
+<li>&#xB2E8;, &#xC0AC;&#xC5C5;&#xBE44;&#xB294; &#xCD9C;&#xC7AC;&#xB300;&#xC0C1; &#xC704;&#xD5D8;&#xC774; &#xC544;&#xB2C8;&#xBBC0;&#xB85C; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D; &#xC704;&#xD5D8;&#xC870;&#xC815; &#xCE21;&#xC815;&#xC5D0;&#xC11C; &#xC81C;&#xC678;&#xD568; </li>
+</ul>
+</li>
+</ul>
+<p><strong>[&#xBC29;&#xC548; 2]</strong></p>
+<ul>
+<li>&#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xACFC; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xD604;&#xAE08;&#xD750;&#xB984; &#xBC18;&#xC601;&#xAE30;&#xAC04; &#xBC0F; &#xD3C9;&#xAC00;&#xB300;&#xC0C1;&#xC774; &#xC77C;&#xCE58;&#xD558;&#xB294; &#xACBD;&#xC6B0;, &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC5D0;&#xC11C; &#xBCF4;&#xC720; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC744; &#xCC28;&#xAC10;&#xD558;&#xC5EC; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC744; &#xC0B0;&#xCD9C;&#xAC00;&#xB2A5; <ul>
+<li>&#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D; &#xAE30;&#xC900;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xACFC; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC5D0; &#xC7AC;&#xBCF4;&#xD5D8; &#xD604;&#xAE08;&#xD750;&#xB984;&#xC744; &#xBC18;&#xC601;&#xD55C; &#xBCF4;&#xC720;&#xAE30;&#xC900;&#xC73C;&#xB85C; &#xC0B0;&#xCD9C;&#xD55C; &#xACB0;&#xACFC;&#xAC12;&#xC5D0; &#xCC28;&#xC561;&#xC744; &#xC7AC;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xC758; &#xC704;&#xD5D8;&#xC870;&#xC815;&#xC73C;&#xB85C; &#xC815;&#xC758;&#xD558;&#xB294; &#xBC29;&#xC548; </li>
+<li>&#xB2E8;, &#xD638;&#xC8FC;&#xACC4;&#xB9AC;&#xC0AC;&#xD68C;&#xC758; &#xC758;&#xACAC;&#xCC98;&#xB7FC; &#xC6D0;&#xC218;&#xBCF4;&#xD5D8;&#xACC4;&#xC57D;&#xACFC; &#xD604;&#xAE08;&#xD750;&#xB984; &#xBC18;&#xC601;&#xAE30;&#xAC04; &#xBC0F; &#xD3C9;&#xAC00;&#xB300;&#xC0C1;&#xC774; &#xC77C;&#xCE58;&#xD558;&#xC9C0; &#xC54A;&#xC740; &#xACBD;&#xC6B0; &#xCDA9;&#xC2E4;&#xD55C; &#xBC18;&#xC601;&#xC774; &#xBD88;&#xAC00;&#xB2A5;&#xD568; </li>
+</ul>
+</li>
+</ul>
+</div></div></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="7.2.2.html" class="navigation navigation-prev " aria-label="Previous page: 7.2.2 기준서 개정">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../7.3/" class="navigation navigation-next " aria-label="Next page: 7.3 후속측정">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"description":"Issues in practical application","title":"7.2.3 이슈사항 분석","level":"1.7.2.3","depth":3,"next":{"title":"7.3 후속측정","level":"1.7.3","depth":2,"path":"7./7.3/README.md","ref":"7./7.3/README.md","articles":[{"title":"7.3.1 기준서 주요내용","level":"1.7.3.1","depth":3,"path":"7./7.3/7.3.1.md","ref":"7./7.3/7.3.1.md","articles":[]},{"title":"7.3.2 기준서 개정","level":"1.7.3.2","depth":3,"path":"7./7.3/7.3.2.md","ref":"7./7.3/7.3.2.md","articles":[]},{"title":"7.3.3 이슈사항 분석","level":"1.7.3.3","depth":3,"path":"7./7.3/7.3.3.md","ref":"7./7.3/7.3.3.md","articles":[]}]},"previous":{"title":"7.2.2 기준서 개정","level":"1.7.2.2","depth":3,"path":"7./undefined-1/7.2.2.md","ref":"7./undefined-1/7.2.2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["hints","tabs2","livereload"],"pluginsConfig":{"livereload":{},"search":{},"hints":{"danger":"fa fa-exclamation-cicle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"tabs2":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"7./undefined-1/7.2.3.md","mtime":"2023-03-20T17:16:07.970Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-03-22T15:11:48.047Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-tabs2/tabs.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
